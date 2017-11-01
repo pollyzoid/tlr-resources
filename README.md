@@ -25,6 +25,10 @@ They seem to be called with an array of arguments instead of just normal args.
 Some important ones:
 * `_Prog_Printff` - used by gameplay functions for debug output
 
-### Random notes
+## Random notes
 Binding for setting run speed:
 `Bindings=(Name="Eight",Command="Setspeed 1.064",Control=False,Shift=False,Alt=False,bIgnoreCtrl=False,bIgnoreShift=False,bIgnoreAlt=False)`
+
+## TODO
+* Figure out table metadata struct, which contains stuff like column names, column types, lengths
+* Stringtable struct, should be fairly straightforward
