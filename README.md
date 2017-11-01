@@ -8,6 +8,9 @@ These are all very messy and quick scripts, and might not even work.
 ## Function dumps
 Here both progfuncs and strfuncs files are just copy-pasted from IDA string list and disasm listing.
 
+## Structs
+Currently only contains table enums and some basic structs dumped from IDA. After I go through the table metadata stuff, I should be able to generate accurate structs and will fill this folder more.
+
 ## Addresses
 All addresses here are absolute. The image's base address is `0x10900000`, so the offset can be calculated with that.
 
