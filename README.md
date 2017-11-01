@@ -1,6 +1,6 @@
 ## Scripts:
 These are all very messy and quick scripts, and might not even work.
-* `enumgen.py` 
+* `enumgen.py` generates C enums from raw table dumps
 * `strfuncdump.py` generates an IDA script from a str-func pairing
 * `structs.py` generates a C struct from a table CSV
 * `tablething.py` generates a .csv from a raw table dump that the game's tlr_DumpSheet generates
