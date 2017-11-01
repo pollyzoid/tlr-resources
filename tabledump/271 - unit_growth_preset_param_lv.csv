@@ -1,0 +1,4 @@
+           km_, km_btl_rank_min, km_btl_rank_max, km_param_lv, 
+       sSlabel,     eUCHAR,     eUCHAR,     eUCHAR, 
+ 0 : set_rank01,          1,        255,          0, 
+

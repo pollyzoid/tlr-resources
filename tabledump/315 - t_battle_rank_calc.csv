@@ -1,0 +1,4 @@
+           km_, km_btl_rank_exp2, km_defeat_union_count, km_damage_suffered, km_damage_deal, km_defeat_pc_count, km_entry_mons_count, km_entry_mons_lv_total, 
+       sSlabel,     eULONG,     eUCHAR,     eULONG,     eULONG,    eUSHORT,    eUSHORT,     eULONG, 
+ 0 :       Data,          0,          0,          0,          0,          0,          3,        231, 
+

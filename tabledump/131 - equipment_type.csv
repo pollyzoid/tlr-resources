@@ -1,0 +1,8 @@
+           km_,   km_namen,    km_icon, km_type_weapon, km_type_shield, km_type_accessory, 
+       sSlabel,    eSSHORT,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR, 
+ 0 :     blades,          1,          0,          1,          0,          0, 
+ 1 :   breakers,          2,          1,          1,          0,          0, 
+ 2 :   polearms,          3,          2,          1,          0,          0, 
+ 3 :    shields,          4,          3,          0,          1,          0, 
+ 4 : accessories,          5,          4,          0,          0,          1, 
+

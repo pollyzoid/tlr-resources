@@ -1,0 +1,4 @@
+           km_, km_gLastBGMChangedTurn, km_gLastTensionCheckedTurn, km_gTensionState, km_gbIsHitBossHpRule, km_gTensionGoodBasicRule_KeepTensionTurn, km_gTensionGoodForceRule_KeepTensionTurn, km_gTensionBadBasicRule_KeepTensionTurn, km_gTensionBadForceRule_KeepTensionTurn, 
+       sSlabel,     eSLONG,     eSLONG,     eSLONG,     eSLONG,     eSLONG,     eSLONG,     eSLONG,     eSLONG, 
+ 0 :       Work,          0,         -1,          0,          0,          0,          0,          0,          0, 
+

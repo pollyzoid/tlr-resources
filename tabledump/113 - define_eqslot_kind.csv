@@ -1,0 +1,7 @@
+           km_,      km_id, 
+       sSlabel,     eUCHAR, 
+ 0 :  MAIN_SLOT,          0, 
+ 1 :   SUB_SLOT,          1, 
+ 2 : ACCESSORY_01,          2, 
+ 3 : ACCESSORY_02,          3, 
+

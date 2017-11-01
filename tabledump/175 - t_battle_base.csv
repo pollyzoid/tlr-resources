@@ -1,0 +1,4 @@
+           km_,    km_turn, km_is_chain_success, km_chain_count, km_end_condition, km_special_battle_id, 
+       sSlabel,    eUSHORT,     eUCHAR,     eUCHAR,    eSSHORT,    eSSHORT, 
+ 0 :       Data,          0,          0,          0,         -1,         -1, 
+

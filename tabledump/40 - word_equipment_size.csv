@@ -1,0 +1,8 @@
+           km_, km_StrNo_text, km_StrNo_text_s, km_StrNo_text_k1, km_StrNo_text_k2, km_window_type, km_font_type, 
+       sSlabel,    eString,    eString,    eString,    eString,     eUCHAR,     eUCHAR, 
+ 0 :      Dummy,      36712,      36713,      36714,      36715,          0,          0, 
+ 1 :      Small,      36716,      36717,      36718,      36719,          0,          0, 
+ 2 :    Midsize,      36720,      36721,      36722,      36723,          0,          0, 
+ 3 :      Large,      36724,      36725,      36726,      36727,          0,          0, 
+ 4 :       Huge,      36728,      36729,      36730,      36731,          0,          0, 
+

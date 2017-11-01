@@ -1,0 +1,9 @@
+           km_,   km_namen,    km_help,    km_icon, 
+       sSlabel,    eSSHORT,    eSSHORT,     eUCHAR, 
+ 0 :   eq_swrod,          1,         34,         48, 
+ 1 :  eq_katana,          2,         35,         49, 
+ 2 :     eq_axe,          3,         36,         50, 
+ 3 :  eq_hammer,          4,         37,         51, 
+ 4 :   eq_spear,          5,         38,         52, 
+ 5 :    eq_mace,          6,         39,         53, 
+

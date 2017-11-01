@@ -1,0 +1,4 @@
+           km_, km_button_id, km_start_just, km_just_end, km_unit_id, 
+       sSlabel,     eUCHAR,    eUSHORT,    eUSHORT,     eUCHAR, 
+ 0 :       Data,        255,      65535,      65535,        255, 
+

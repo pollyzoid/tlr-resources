@@ -1,0 +1,10 @@
+           km_, km_StrNo_text, km_StrNo_text_s, km_StrNo_text_k1, km_StrNo_text_k2, km_window_type, km_font_type, 
+       sSlabel,    eString,    eString,    eString,    eString,     eUCHAR,     eUCHAR, 
+ 0 :      Dummy,      48468,      48469,      48470,      48471,          0,          0, 
+ 1 : type_saikutu,      48472,      48473,      48474,      48475,          0,          0, 
+ 2 : type_bassai,      48476,      48477,      48478,      48479,          0,          0, 
+ 3 : type_choyaku,      48480,      48481,      48482,      48483,          0,          0, 
+ 4 : type_sensui,      48484,      48485,      48486,      48487,          0,          0, 
+ 5 : type_moguri,      48488,      48489,      48490,      48491,          0,          0, 
+ 6 : type_zaiho,      48492,      48493,      48494,      48495,          0,          0, 
+

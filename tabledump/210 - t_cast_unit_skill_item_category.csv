@@ -1,0 +1,4 @@
+           km_,     km_exp,    km_exp2, km_lv_base,  km_lv_now, km_lv_battle, km_use_flag, 
+       sSlabel,     eULONG,     eULONG,     eSCHAR,     eSCHAR,     eSCHAR,     eUCHAR, 
+ 0 :       None,          0,          0,          1,         -1,         -1,          0, 
+

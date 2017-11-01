@@ -1,0 +1,4 @@
+           km_,  km_lv_str, km_exp_str,  km_lv_see, km_exp_see,  km_lv_art, km_exp_art, km_saisyu_loop_id, km_normal_count_add_id, km_rare_appear_add_id, km_rare_count_add_id, km_treasure_rank_add_id, km_treasure_count_add_id, km_money_add_id, 
+       sSlabel,     eSCHAR,     eSLONG,     eSCHAR,     eSLONG,     eSCHAR,     eSLONG,    eSSHORT,    eSSHORT,    eSSHORT,    eSSHORT,    eSSHORT,    eSSHORT,    eSSHORT, 
+ 0 :       Data,         16,      13440,         16,      10240,         16,      12800,          4,          8,         12,         16,         20,         24,         28, 
+

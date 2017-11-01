@@ -1,0 +1,8 @@
+           km_,      km_id, 
+       sSlabel,     eUCHAR, 
+ 0 : mgcskill_ready,          5, 
+ 1 :   mgcskill,         15, 
+ 2 :  skilllvup,         80, 
+ 3 : skillcategorylvup,        100, 
+ 4 : bonus_odds,          5, 
+

@@ -1,0 +1,9 @@
+           km_,   km_namen,    km_help,    km_icon, 
+       sSlabel,    eSSHORT,    eSSHORT,     eUCHAR, 
+ 0 : type_attack,          1,          1,          0, 
+ 1 :  type_arts,          2,          2,          0, 
+ 2 : type_magic,          3,          3,          0, 
+ 3 :  type_item,          4,          4,          0, 
+ 4 : type_monsact,          5,          5,          0, 
+ 5 :    type_ex,          6,          6,          0, 
+

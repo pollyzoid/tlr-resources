@@ -1,0 +1,4 @@
+           km_, km_forced_change_eq, km_need_btl_count, km_phy_shift, km_mgc_shift, 
+       sSlabel,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR, 
+ 0 :       Data,         10,         10,         60,         60, 
+

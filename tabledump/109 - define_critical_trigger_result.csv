@@ -1,0 +1,7 @@
+           km_,      km_id, 
+       sSlabel,     eUCHAR, 
+ 0 :  too_early,          0, 
+ 1 :    perfect,          1, 
+ 2 :   too_late,          2, 
+ 3 :       miss,          3, 
+

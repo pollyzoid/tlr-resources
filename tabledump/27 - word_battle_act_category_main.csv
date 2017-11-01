@@ -1,0 +1,10 @@
+           km_, km_StrNo_text, km_StrNo_text_s, km_StrNo_text_k1, km_StrNo_text_k2, km_window_type, km_font_type, 
+       sSlabel,    eString,    eString,    eString,    eString,     eUCHAR,     eUCHAR, 
+ 0 :      Dummy,       8376,       8377,       8378,       8379,          0,          0, 
+ 1 : type_attack,       8380,       8381,       8382,       8383,          0,          0, 
+ 2 :  type_arts,       8384,       8385,       8386,       8387,          0,          0, 
+ 3 : type_magic,       8388,       8389,       8390,       8391,          0,          0, 
+ 4 :  type_item,       8392,       8393,       8394,       8395,          0,          0, 
+ 5 : type_monsact,       8396,       8397,       8398,       8399,          0,          0, 
+ 6 :    type_ex,       8400,       8401,       8402,       8403,          0,          0, 
+

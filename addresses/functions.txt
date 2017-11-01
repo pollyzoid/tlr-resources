@@ -1,0 +1,154 @@
+tlr_BattleCalc_Get_etc_bttle_breed_category 0x119C2480
+tlr_BattleInit                              0x11A20A20
+tlr_BattleMain                              0x11A24770
+
+// Unrelated to walking speed
+tlr_BattleUnion_SetSpeed                    0x119433A0
+
+// Calls a given function with args
+int tlr_CallCB(int (*func)(int, ...), int args, ...)
+tlr_CallCB                                  0x10FC05D0
+
+// Two nullfuncs for debug printing. Detour and print somewhere to get debug output
+void __cdecl tlr_DebugPrint123(int a1, char *str) = 0x110783E0
+signed int tlr_DebugPrintF(char *str, ...)
+tlr_DebugPrintF                             0x10FC0620
+
+// Prints a sheet's contents (including names and types) into tlr_DebugPrint123
+// a1 can apparently be null without any issues
+void __cdecl tlr_DumpSheet(int a1, int tableIdx, int firstRecord, int lastRecord)
+tlr_DumpSheet                               0x10FDF920
+
+
+tlr_EquipAccessory                          0x116B4600
+tlr_EquipMainhand                           0x11799F60
+tlr_EquipOffhand                            0x1177FA00
+tlr_FEngineLoop__Init                       0x109098A0
+
+// Finds a scriptfunc with given name (doesn't seem to be called mid-gameplay, probably at game start)
+int __cdecl tlr_FindStrFunc(int a1, int funcName, int a3, int a4)
+tlr_FindStrFunc                             0x11065790
+
+// Table getters
+tlr_GetBattleGameResident                   0x10FC5F30
+tlr_GetBattleGameResidentCount              0x10FC5F10
+tlr_GetBattleSpecialsImpress                0x10FC1350
+
+// Something related to menu (JyoMenu)
+tlr_GetBtlMenu                              0x1165E180
+
+tlr_GetCustomiseImproTarget                 0x10FC58F0
+tlr_GetCustomiseList                        0x10FC58A0
+tlr_GetEncountData                          0x10FC0A40
+tlr_GetEncountDestroyInfo                   0x10FC0AE0
+tlr_GetEncountDestroyInfoCount              0x10FC0B10
+tlr_GetEncountInfo                          0x10FC0B30
+tlr_GetEquipmentCategorySize                0x10FC1940
+tlr_GetEquipmentData                        0x10FC1990
+tlr_GetEquipmentType                        0x10FC1AD0
+
+// tlr_GlobalThing_t functions (JyoMenuManager stuff)
+tlr_GetGlobalThingMember                    0x1165E1C0
+tlr_GetGlobalThingMemberAccessory           0x116A3150
+tlr_GetGlobalThingMemberMember              0x116A3130
+tlr_GetGlobalThingMemberOffhand             0x116A3140
+tlr_GetGlobalThingThing                     0x116612E0
+
+tlr_GetGuildEmployList                      0x10FC4DB0
+tlr_GetGuildEmployListCount                 0x10FC4D90
+tlr_GetItemDougu                            0x10FC1C60
+tlr_GetItemMaterial                         0x10FC1CB0
+tlr_GetItemMons                             0x10FC1D00
+tlr_GetPartyEquipmentAccessory              0x10FC0D60
+tlr_GetPartyEquipmentAccessoryCount         0x10FC0D40
+tlr_GetPartyEquipmentWeapon                 0x10FC0D10
+tlr_GetPartyEquipmentWeaponCount            0x10FC0CF0
+tlr_GetPartyItem                            0x10FC0DB0
+tlr_GetPartyItemCount                       0x10FC0D90
+tlr_GetRushParamMaybe                       0x11623860
+tlr_GetShopGoodsList                        0x10FC5A80
+tlr_GetShopGoodsListCount                   0x10FC5A60
+
+tlr_GetSomeRecord                           0x10FC70E0
+
+// Get a string from global stringtable
+tlr_GetString                               0x10FD20C0
+
+// Bunch of getters for tables
+tlr_GetUnionBattle                          0x10FC0B80
+tlr_GetUnionBattleCount                     0x10FC0B60
+tlr_GetUnionParam                           0x10FC0BD0
+tlr_GetUnionParamCount                      0x10FC0BB0
+tlr_GetUnitBattle                           0x10FC0C20
+tlr_GetUnitBattleCount                      0x10FC0C00
+tlr_GetUnitBattlePC                         0x10FC2AD0
+tlr_GetUnitEquipmentWeapon                  0x10FC0CC0
+tlr_GetUnitGrowthParam                      0x10FC2C60
+tlr_GetUnitParam                            0x10FC0C70
+tlr_GetUnitParamCount                       0x10FC0C50
+tlr_GetUnitSortOrder                        0x10FD7640
+tlr_GetWordItemDougu                        0x10FC32A0
+tlr_GetWordItemMaterial                     0x10FC32F0
+tlr_GetWordItemMons                         0x10FC3340
+
+tlr_InitGlobalData                          0x10FE0B10
+tlr_InitializeRushGlobal                    0x113169B0
+
+tlr_IsUnitLeader                            0x10FD7DC0
+tlr_IsUnitNotLeader                         0x10FD7DF0
+
+tlr_LoadGlobalData                          0x10F4AEE0
+tlr_LoadStartupPackage                      0x10909240
+tlr_ManagerInit                             0x11307340
+tlr_MaybeFindIdxByLabel                     0x10F38900
+tlr_MaybeGetUnitBattleByKey                 0x10FCAE80
+
+tlr_Print1                                  0x10F26B30
+tlr_Print2                                  0x10F26AA0
+tlr_PrintSheetInfo                          0x11064960
+
+tlr_RecordThing                             0x10FC7100
+tlr_RushTitle                               0x111A7260
+tlr_Script_BtlRankCalc                      0x119DA2A0
+tlr_SetFuncNameThing                        0x11060DB0
+tlr_SetUnitSortId                           0x10FD75B0
+tlr_ShopSellThing                           0x1173C500
+tlr_UGameEngine__Init                       0x10BC3050
+tlr_URushGlobal__Initialize                 0x11318920
+tlr_UnequipAccessory                        0x116ADDA0
+tlr_UnequipMainhand                         0x11794B90
+tlr_UnequipOffhand                          0x1177C350
+
+// Misc stuff
+tlr_cons1                                   0x11066080
+tlr_copycons                                0x109060E0
+tlr_copythis                                0x1092BD40
+tlr_defconstructor                          0x10906000
+tlr_eqlevel_stuff                           0x11723790
+tlr_fillstructwithshit                      0x10903A20
+tlr_intARushFieldexecGetBattleMapInfo       0x1130FA70
+tlr_investigate                             0x11069B70
+tlr_mallocnstuff                            0x10905000
+tlr_maybeequipthing                         0x111DC720
+tlr_movecons                                0x10905F70
+tlr_printmaybe                              0x10902C70
+tlr_sprintfmaybe                            0x10913C70
+tlr_strcmpthing                             0x10F250B0
+tlr_tablethingie                            0x10FC6A30
+tlr_thingwithmemcpy                         0x109B6200
+tlr_vfxBattleTest                           0x11063740
+tlr_vsnwprintf_swapped_args                 0x10F30820
+tlr_wx_Init                                 0x1203BB60
+
+// UE related
+ue_FEngineLoop__PreInit                     0x1090A580
+ue_GetObject                                0x10F3AE30
+ue_GetProperty                              0x10F9A430
+ue_GetRushGlobal                            0x11318870
+ue_GetRushPawn                              0x11327670
+ue_GetRushPlanDatabase                      0x10FD2500
+ue_UWorld__BeginPlay                        0x109CC450
+ue_UWorld__Init                             0x109CDB00
+ue_debugPrint                               0x116239E0
+ue_fuckIfIKnow                              0x10F56C90
+ue_maaaybeGetGlobal                         0x1169D2C0

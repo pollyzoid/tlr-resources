@@ -1,0 +1,4 @@
+           km_, km_lvup_str, km_lvup_art, km_lvup_see, km_saisyu_loop, km_normal_count_add, km_rare_appear_add, km_rare_count_add, km_treasure_rank_add, km_treasure_count_add, km_money_add, 
+       sSlabel,     eUCHAR,     eUCHAR,     eUCHAR,     eSLONG,     eSLONG,     eSLONG,     eSLONG,     eSLONG,     eSLONG,     eSLONG, 
+ 0 :       Data,          0,          0,          0,         -1,         -1,         -1,         -1,         -1,         -1,         -1, 
+

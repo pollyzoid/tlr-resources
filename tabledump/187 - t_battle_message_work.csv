@@ -1,0 +1,11 @@
+           km_,    km_step,      km_id, km_send_max, km_send_count, km_camera_trax_id,     km_pid, km_pid_count, km_pid_exe_count, km_skip_flag, 
+       sSlabel,    eSSHORT,    eSSHORT,    eSSHORT,    eSSHORT,     eSLONG,    eSSHORT,     eSCHAR,     eSCHAR,     eSCHAR, 
+ 0 :       Data,          0,         -1,         -1,         -1,         -1,         -1,          0,          0,          0, 
+          ,           ,           ,           ,           ,           ,         -1,           ,           ,           , 
+          ,           ,           ,           ,           ,           ,         -1,           ,           ,           , 
+          ,           ,           ,           ,           ,           ,         -1,           ,           ,           , 
+          ,           ,           ,           ,           ,           ,         -1,           ,           ,           , 
+          ,           ,           ,           ,           ,           ,         -1,           ,           ,           , 
+          ,           ,           ,           ,           ,           ,         -1,           ,           ,           , 
+          ,           ,           ,           ,           ,           ,         -1,           ,           ,           , 
+

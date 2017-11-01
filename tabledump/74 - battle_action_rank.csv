@@ -1,0 +1,8 @@
+           km_,  km_rank_a,  km_rank_b,  km_rank_c,  km_rank_d,  km_rank_e, km_totugeki_lv, km_totugeki_num, km_sogeki_lv, km_sogeki_num, km_kousaku_lv, km_kousaku_num, km_kyujo_lv, km_kyujo_num, km_senjutsu_lv, km_senjutsu_num, km_senryaku_lv, km_senryaku_num, km_kinki_lv, km_kinki_num, 
+       sSlabel,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR,     eUCHAR, 
+ 0 :          C,          1,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+ 1 :          B,          0,          1,          0,          0,          0,          2,          1,          2,          1,          2,          1,          2,          1,          2,          1,          0,          0,          0,          0, 
+ 2 :          A,          0,          0,          1,          0,          0,          2,          1,          2,          1,          2,          1,          2,          1,          2,          1,          2,          1,          0,          0, 
+ 3 :          S,          0,          0,          0,          1,          0,          2,          1,          2,          1,          2,          1,          2,          1,          2,          1,          2,          1,          0,          0, 
+ 4 :         SS,          0,          0,          0,          0,          1,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          1,          1,          0,          0, 
+

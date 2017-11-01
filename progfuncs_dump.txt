@@ -1,0 +1,1814 @@
+.data:125E846C off_125E846C    dd offset a_prog_assert ; "_Prog_Assert"
+.data:125E8470 off_125E8470    dd offset tlr_Assert
+.data:125E8474                 db 0FFh
+.data:125E8475                 db 0FFh
+.data:125E8476                 db 0FFh
+.data:125E8477                 db 0FFh
+.data:125E8478                 dd offset a_prog_warning ; "_Prog_Warning"
+.data:125E847C                 dd offset sub_10FD68B0
+.data:125E8480                 db    1
+.data:125E8481                 db    0
+.data:125E8482                 db    0
+.data:125E8483                 db    0
+.data:125E8484                 dd offset a_prog_test   ; "_Prog_Test"
+.data:125E8488                 dd offset sub_10FD6630
+.data:125E848C                 db    2
+.data:125E848D                 db    0
+.data:125E848E                 db    0
+.data:125E848F                 db    0
+.data:125E8490                 dd offset a_prog_debugsav ; "_Prog_DebugSaveSheetData"
+.data:125E8494                 dd offset sub_10FDC340
+.data:125E8498                 db    2
+.data:125E8499                 db    0
+.data:125E849A                 db    0
+.data:125E849B                 db    0
+.data:125E849C                 dd offset a_prog_debugloa ; "_Prog_DebugLoadSheetData"
+.data:125E84A0                 dd offset sub_10FDC430
+.data:125E84A4                 db    2
+.data:125E84A5                 db    0
+.data:125E84A6                 db    0
+.data:125E84A7                 db    0
+.data:125E84A8                 dd offset a_prog_debugise ; "_Prog_DebugIsExistSheetData"
+.data:125E84AC                 dd offset sub_10FD6E10
+.data:125E84B0                 db    1
+.data:125E84B1                 db    0
+.data:125E84B2                 db    0
+.data:125E84B3                 db    0
+.data:125E84B4                 dd offset a_prog_dumpbatt ; "_Prog_DumpBattleWork"
+.data:125E84B8                 dd offset sub_10FDFE50
+.data:125E84BC                 db    2
+.data:125E84BD                 db    0
+.data:125E84BE                 db    0
+.data:125E84BF                 db    0
+.data:125E84C0                 dd offset a_prog_dumpshee ; "_Prog_DumpSheet"
+.data:125E84C4                 dd offset sub_10FDFE90
+.data:125E84C8                 db    1
+.data:125E84C9                 db    0
+.data:125E84CA                 db    0
+.data:125E84CB                 db    0
+.data:125E84CC                 dd offset a_prog_clearshe ; "_Prog_ClearSheetData"
+.data:125E84D0                 dd offset sub_10FDC2B0
+.data:125E84D4                 db    2
+.data:125E84D5                 db    0
+.data:125E84D6                 db    0
+.data:125E84D7                 db    0
+.data:125E84D8                 dd offset a_prog_clears_0 ; "_Prog_ClearSheetIndex"
+.data:125E84DC                 dd offset sub_10FDC300
+.data:125E84E0                 db    1
+.data:125E84E1                 db    0
+.data:125E84E2                 db    0
+.data:125E84E3                 db    0
+.data:125E84E4                 dd offset a_prog_getsheet ; "_Prog_GetSheetDataCount"
+.data:125E84E8                 dd offset tlr_CB_GetRecordCount
+.data:125E84EC                 db    1
+.data:125E84ED                 db    0
+.data:125E84EE                 db    0
+.data:125E84EF                 db    0
+.data:125E84F0                 dd offset a_prog_getgloba ; "_Prog_GetGlobalPlanDtID"
+.data:125E84F4                 dd offset sub_10FD6E60
+.data:125E84F8                 db    1
+.data:125E84F9                 db    0
+.data:125E84FA                 db    0
+.data:125E84FB                 db    0
+.data:125E84FC                 dd offset a_prog_getglo_0 ; "_Prog_GetGlobalPlanDtN"
+.data:125E8500                 dd offset sub_10FD6E70
+.data:125E8504                 db    2
+.data:125E8505                 db    0
+.data:125E8506                 db    0
+.data:125E8507                 db    0
+.data:125E8508                 dd offset a_prog_growthpa ; "_Prog_GrowthParam_GetLevelByExp"
+.data:125E850C                 dd offset sub_10FD6E80
+.data:125E8510                 db    3
+.data:125E8511                 db    0
+.data:125E8512                 db    0
+.data:125E8513                 db    0
+.data:125E8514                 dd offset a_prog_growth_0 ; "_Prog_GrowthPara_GetCorrectionByLevel"
+.data:125E8518                 dd offset sub_10FD6ED0
+.data:125E851C                 db    1
+.data:125E851D                 db    0
+.data:125E851E                 db    0
+.data:125E851F                 db    0
+.data:125E8520                 dd offset a_prog_unitpara ; "_Prog_UnitParamWriteSortIdx"
+.data:125E8524                 dd offset sub_10FD7000
+.data:125E8528                 db    1
+.data:125E8529                 db    0
+.data:125E852A                 db    0
+.data:125E852B                 db    0
+.data:125E852C                 dd offset a_prog_partyequ ; "_Prog_PartyEquipmentWriteSortIdx"
+.data:125E8530                 dd offset sub_10FD7230
+.data:125E8534                 db    1
+.data:125E8535                 db    0
+.data:125E8536                 db    0
+.data:125E8537                 db    0
+.data:125E8538                 dd offset a_prog_partyacc ; "_Prog_PartyAccessoryWriteSortIdx"
+.data:125E853C                 dd offset sub_10FD7240
+.data:125E8540                 db    1
+.data:125E8541                 db    0
+.data:125E8542                 db    0
+.data:125E8543                 db    0
+.data:125E8544                 dd offset a_prog_partyite ; "_Prog_PartyItemWriteSortIdx"
+.data:125E8548                 dd offset sub_10FD7250
+.data:125E854C                 db    3
+.data:125E854D                 db    0
+.data:125E854E                 db    0
+.data:125E854F                 db    0
+.data:125E8550                 dd offset a_prog_makeunit ; "_Prog_MakeUnitId"
+.data:125E8554                 dd offset sub_10FD8DC0
+.data:125E8558                 db    1
+.data:125E8559                 db    0
+.data:125E855A                 db    0
+.data:125E855B                 db    0
+.data:125E855C                 dd offset a_prog_isfriend ; "_Prog_IsFriend"
+.data:125E8560                 dd offset sub_10FD8DE0
+.data:125E8564                 db    1
+.data:125E8565                 db    0
+.data:125E8566                 db    0
+.data:125E8567                 db    0
+.data:125E8568                 dd offset a_prog_isenemy ; "_Prog_IsEnemy"
+.data:125E856C                 dd offset sub_10FD8E00
+.data:125E8570                 db    1
+.data:125E8571                 db    0
+.data:125E8572                 db    0
+.data:125E8573                 db    0
+.data:125E8574                 dd offset a_prog_getunion ; "_Prog_GetUnionIdx"
+.data:125E8578                 dd offset sub_10FD8E30
+.data:125E857C                 db    1
+.data:125E857D                 db    0
+.data:125E857E                 db    0
+.data:125E857F                 db    0
+.data:125E8580                 dd offset a_prog_getuniti ; "_Prog_GetUnitIdx"
+.data:125E8584                 dd offset sub_10FD8E50
+.data:125E8588                 db    4
+.data:125E8589                 db    0
+.data:125E858A                 db    0
+.data:125E858B                 db    0
+.data:125E858C                 dd offset a_prog_getboard ; "_Prog_GetBoardPosition"
+.data:125E8590                 dd offset func
+.data:125E8594                 db    1
+.data:125E8595                 db    0
+.data:125E8596                 db    0
+.data:125E8597                 db    0
+.data:125E8598                 dd offset a_prog_getposun ; "_Prog_GetPosUnitModelXY"
+.data:125E859C                 dd offset sub_10FD9010
+.data:125E85A0                 db    1
+.data:125E85A1                 db    0
+.data:125E85A2                 db    0
+.data:125E85A3                 db    0
+.data:125E85A4                 dd offset a_prog_getpos_0 ; "_Prog_GetPosUnitModelRot"
+.data:125E85A8                 dd offset sub_10FD9060
+.data:125E85AC                 db    1
+.data:125E85AD                 db    0
+.data:125E85AE                 db    0
+.data:125E85AF                 db    0
+.data:125E85B0                 dd offset a_prog_xy2x   ; "_Prog_xy2x"
+.data:125E85B4                 dd offset sub_10FD9150
+.data:125E85B8                 db    1
+.data:125E85B9                 db    0
+.data:125E85BA                 db    0
+.data:125E85BB                 db    0
+.data:125E85BC                 dd offset a_prog_xy2y   ; "_Prog_xy2y"
+.data:125E85C0                 dd offset sub_10FD9160
+.data:125E85C4                 db    2
+.data:125E85C5                 db    0
+.data:125E85C6                 db    0
+.data:125E85C7                 db    0
+.data:125E85C8                 dd offset a_prog_setunitr ; "_Prog_SetUnitRagdollWeightRate"
+.data:125E85CC                 dd offset sub_10FD93E0
+.data:125E85D0                 db    8
+.data:125E85D1                 db    0
+.data:125E85D2                 db    0
+.data:125E85D3                 db    0
+.data:125E85D4                 dd offset a_prog_blowragd ; "_Prog_BlowRagdoll"
+.data:125E85D8                 dd offset sub_10FDDF70
+.data:125E85DC                 db    5
+.data:125E85DD                 db    0
+.data:125E85DE                 db    0
+.data:125E85DF                 db    0
+.data:125E85E0                 dd offset a_prog_createca ; "_Prog_CreateCaputuredUnit"
+.data:125E85E4                 dd offset sub_10FDCBB0
+.data:125E85E8                 db    8
+.data:125E85E9                 db    0
+.data:125E85EA                 db    0
+.data:125E85EB                 db    0
+.data:125E85EC                 dd offset a_prog_setunion ; "_Prog_SetUnionMove"
+.data:125E85F0                 dd offset sub_10FD9B70
+.data:125E85F4                 db    1
+.data:125E85F5                 db    0
+.data:125E85F6                 db    0
+.data:125E85F7                 db    0
+.data:125E85F8                 dd offset a_prog_setuni_0 ; "_Prog_SetUnionMoveStop"
+.data:125E85FC                 dd offset sub_10FD9B80
+.data:125E8600                 db    0
+.data:125E8601                 db    0
+.data:125E8602                 db    0
+.data:125E8603                 db    0
+.data:125E8604                 dd offset a_prog_pauseuni ; "_Prog_PauseUnionMove"
+.data:125E8608                 dd offset sub_10FD9B90
+.data:125E860C                 align 10h
+.data:125E8610                 dd offset a_prog_resumeun ; "_Prog_ResumeUnionMove"
+.data:125E8614                 dd offset sub_10FD9BA0
+.data:125E8618                 db    0
+.data:125E8619                 db    0
+.data:125E861A                 db    0
+.data:125E861B                 db    0
+.data:125E861C                 dd offset a_prog_setencou ; "_Prog_SetEncountInfo"
+.data:125E8620                 dd offset sub_10FE1E30
+.data:125E8624                 align 8
+.data:125E8628                 dd offset a_prog_setbattl ; "_Prog_SetBattleEndInfo"
+.data:125E862C                 dd offset sub_10FE0FA0
+.data:125E8630                 db    0
+.data:125E8631                 db    0
+.data:125E8632                 db    0
+.data:125E8633                 db    0
+.data:125E8634                 dd offset a_prog_finish_0 ; "_Prog_FinishBattle"
+.data:125E8638                 dd offset sub_10FE0FB0
+.data:125E863C                 db    1
+.data:125E863D                 db    0
+.data:125E863E                 db    0
+.data:125E863F                 db    0
+.data:125E8640                 dd offset a_prog_getglo_1 ; "_Prog_GetGlobalFlag"
+.data:125E8644                 dd offset sub_10FE0FF0
+.data:125E8648                 db    2
+.data:125E8649                 db    0
+.data:125E864A                 db    0
+.data:125E864B                 db    0
+.data:125E864C                 dd offset a_prog_setgloba ; "_Prog_SetGlobalFlag"
+.data:125E8650                 dd offset sub_10FE1010
+.data:125E8654                 db    1
+.data:125E8655                 db    0
+.data:125E8656                 db    0
+.data:125E8657                 db    0
+.data:125E8658                 dd offset a_prog_loadbatt ; "_Prog_LoadBattleAIMap"
+.data:125E865C                 dd offset sub_10FE1460
+.data:125E8660                 db    8
+.data:125E8661                 db    0
+.data:125E8662                 db    0
+.data:125E8663                 db    0
+.data:125E8664                 dd offset a_prog_createun ; "_Prog_CreateUnitModel"
+.data:125E8668                 dd offset sub_10FDE660
+.data:125E866C                 db    2
+.data:125E866D                 db    0
+.data:125E866E                 db    0
+.data:125E866F                 db    0
+.data:125E8670                 dd offset a_prog_changeun ; "_Prog_ChangeUnitMaterial"
+.data:125E8674                 dd offset sub_10FDA660
+.data:125E8678                 db    5
+.data:125E8679                 db    0
+.data:125E867A                 db    0
+.data:125E867B                 db    0
+.data:125E867C                 dd offset a_prog_unitchan ; "_Prog_UnitChangeEquipModel"
+.data:125E8680                 dd offset sub_10FDA6B0
+.data:125E8684                 db    5
+.data:125E8685                 db    0
+.data:125E8686                 db    0
+.data:125E8687                 db    0
+.data:125E8688                 dd offset a_prog_unitse_0 ; "_Prog_UnitSetEquipTrax"
+.data:125E868C                 dd offset sub_10FDA720
+.data:125E8690                 db    2
+.data:125E8691                 db    0
+.data:125E8692                 db    0
+.data:125E8693                 db    0
+.data:125E8694                 dd offset a_prog_unitsetm ; "_Prog_UnitSetMotionType"
+.data:125E8698                 dd offset sub_10FDA790
+.data:125E869C                 db    7
+.data:125E869D                 db    0
+.data:125E869E                 db    0
+.data:125E869F                 db    0
+.data:125E86A0                 dd offset a_prog_unitse_1 ; "_Prog_UnitSetEquipModel"
+.data:125E86A4                 dd offset sub_10FDE720
+.data:125E86A8                 db    4
+.data:125E86A9                 db    0
+.data:125E86AA                 db    0
+.data:125E86AB                 db    0
+.data:125E86AC                 dd offset a_prog_setposun ; "_Prog_SetPosUnitModel"
+.data:125E86B0                 dd offset sub_10FDA7D0
+.data:125E86B4                 align 8
+.data:125E86B8                 dd offset a_prog_initbtlc ; "_Prog_InitBtlCmdSeq"
+.data:125E86BC                 dd offset sub_10FDA980
+.data:125E86C0                 db    0
+.data:125E86C1                 db    0
+.data:125E86C2                 db    0
+.data:125E86C3                 db    0
+.data:125E86C4                 dd offset a_prog_runbtlcm ; "_Prog_RunBtlCmdSeq"
+.data:125E86C8                 dd offset sub_10FDA990
+.data:125E86CC                 align 10h
+.data:125E86D0                 dd offset a_prog_isrunbtl ; "_Prog_IsRunBtlCmdSeq"
+.data:125E86D4                 dd offset sub_10FDA9D0
+.data:125E86D8                 db    1
+.data:125E86D9                 db    0
+.data:125E86DA                 db    0
+.data:125E86DB                 db    0
+.data:125E86DC                 dd offset a_prog_setbackb ; "_Prog_SetBackBtlCmd"
+.data:125E86E0                 dd offset sub_10FDA9F0
+.data:125E86E4                 align 8
+.data:125E86E8                 dd offset a_prog_refreshb ; "_Prog_RefreshBtlCmd"
+.data:125E86EC                 dd offset sub_10FDAA10
+.data:125E86F0                 db    3
+.data:125E86F1                 db    0
+.data:125E86F2                 db    0
+.data:125E86F3                 db    0
+.data:125E86F4                 dd offset a_prog_runtrax ; "_Prog_RunTrax"
+.data:125E86F8                 dd offset sub_10FDE920
+.data:125E86FC                 db    2
+.data:125E86FD                 db    0
+.data:125E86FE                 db    0
+.data:125E86FF                 db    0
+.data:125E8700                 dd offset a_prog_runcommo ; "_Prog_RunCommonTrax"
+.data:125E8704                 dd offset sub_10FDEA00
+.data:125E8708                 db    1
+.data:125E8709                 db    0
+.data:125E870A                 db    0
+.data:125E870B                 db    0
+.data:125E870C                 dd offset a_prog_isrunnin ; "_Prog_IsRunningTrax"
+.data:125E8710                 dd offset sub_10FDACE0
+.data:125E8714                 db    1
+.data:125E8715                 db    0
+.data:125E8716                 db    0
+.data:125E8717                 db    0
+.data:125E8718                 dd offset a_prog_islooptr ; "_Prog_IsLoopTrax"
+.data:125E871C                 dd offset sub_10FDAD10
+.data:125E8720                 db    1
+.data:125E8721                 db    0
+.data:125E8722                 db    0
+.data:125E8723                 db    0
+.data:125E8724                 dd offset a_prog_isloopin ; "_Prog_IsLoopingTrax"
+.data:125E8728                 dd offset sub_10FDAD40
+.data:125E872C                 db    1
+.data:125E872D                 db    0
+.data:125E872E                 db    0
+.data:125E872F                 db    0
+.data:125E8730                 dd offset a_prog_setloope ; "_Prog_SetLoopEndTrax"
+.data:125E8734                 dd offset sub_10FDAD70
+.data:125E8738                 db    2
+.data:125E8739                 db    0
+.data:125E873A                 db    0
+.data:125E873B                 db    0
+.data:125E873C                 dd offset a_prog_getgam_0 ; "_Prog_GetGamePadNow"
+.data:125E8740                 dd offset sub_10FDD470
+.data:125E8744                 db    2
+.data:125E8745                 db    0
+.data:125E8746                 db    0
+.data:125E8747                 db    0
+.data:125E8748                 dd offset a_prog_getgam_1 ; "_Prog_GetGamePadTrg"
+.data:125E874C                 dd offset sub_10FDD4F0
+.data:125E8750                 db    2
+.data:125E8751                 db    0
+.data:125E8752                 db    0
+.data:125E8753                 db    0
+.data:125E8754                 dd offset a_prog_getgam_2 ; "_Prog_GetGamePadRep"
+.data:125E8758                 dd offset sub_10FDD570
+.data:125E875C                 db    2
+.data:125E875D                 db    0
+.data:125E875E                 db    0
+.data:125E875F                 db    0
+.data:125E8760                 dd offset a_prog_setkeyre ; "_Prog_SetKeyRepeatParam"
+.data:125E8764                 dd offset sub_10FDAE20
+.data:125E8768                 db    2
+.data:125E8769                 db    0
+.data:125E876A                 db    0
+.data:125E876B                 db    0
+.data:125E876C                 dd offset a_prog_bgmplay ; "_Prog_BGMPlay"
+.data:125E8770                 dd offset sub_10FE0350
+.data:125E8774                 db    1
+.data:125E8775                 db    0
+.data:125E8776                 db    0
+.data:125E8777                 db    0
+.data:125E8778                 dd offset a_prog_bgmstop ; "_Prog_BGMStop"
+.data:125E877C                 dd offset sub_10FDD630
+.data:125E8780                 db    3
+.data:125E8781                 db    0
+.data:125E8782                 db    0
+.data:125E8783                 db    0
+.data:125E8784                 dd offset a_prog_bgmplayw ; "_Prog_BGMPlayWithFadeIn"
+.data:125E8788                 dd offset sub_10FE03C0
+.data:125E878C                 db    2
+.data:125E878D                 db    0
+.data:125E878E                 db    0
+.data:125E878F                 db    0
+.data:125E8790                 dd offset a_prog_bgmvol_2 ; "_Prog_BGMVolumeFadeOut"
+.data:125E8794                 dd offset sub_10FDD6A0
+.data:125E8798                 db    3
+.data:125E8799                 db    0
+.data:125E879A                 db    0
+.data:125E879B                 db    0
+.data:125E879C                 dd offset a_prog_bgmvol_3 ; "_Prog_BGMVolumeFadeIn"
+.data:125E87A0                 dd offset sub_10FDD740
+.data:125E87A4                 db    1
+.data:125E87A5                 db    0
+.data:125E87A6                 db    0
+.data:125E87A7                 db    0
+.data:125E87A8                 dd offset a_prog_bgmgetst ; "_Prog_BGMGetStatus"
+.data:125E87AC                 dd offset sub_10FDD8A0
+.data:125E87B0                 db 0FFh
+.data:125E87B1                 db 0FFh
+.data:125E87B2                 db 0FFh
+.data:125E87B3                 db 0FFh
+.data:125E87B4                 dd offset a_prog_printscr ; "_Prog_PrintScreen"
+.data:125E87B8                 dd offset sub_10FD6C00
+.data:125E87BC                 db    5
+.data:125E87BD                 db    0
+.data:125E87BE                 db    0
+.data:125E87BF                 db    0
+.data:125E87C0                 dd offset a_prog_drawtile ; "_Prog_DrawTile"
+.data:125E87C4                 dd offset sub_10FD6C10
+.data:125E87C8                 db    3
+.data:125E87C9                 db    0
+.data:125E87CA                 db    0
+.data:125E87CB                 db    0
+.data:125E87CC                 dd offset a_prog_drawunit ; "_Prog_DrawUnitIndicater"
+.data:125E87D0                 dd offset sub_10FE2060
+.data:125E87D4                 align 8
+.data:125E87D8                 dd offset a_prog_gettimem ; "_Prog_GetTimeMilliSeconds"
+.data:125E87DC                 dd offset sub_10FD6C80
+.data:125E87E0                 db    1
+.data:125E87E1                 db    0
+.data:125E87E2                 db    0
+.data:125E87E3                 db    0
+.data:125E87E4                 dd offset a_prog_debugget ; "_Prog_DebugGetUnionOpCode"
+.data:125E87E8                 dd offset sub_10FD6CA0
+.data:125E87EC                 db    1
+.data:125E87ED                 db    0
+.data:125E87EE                 db    0
+.data:125E87EF                 db    0
+.data:125E87F0                 dd offset a_prog_getrando ; "_Prog_GetRandom"
+.data:125E87F4                 dd offset tlr_getsomerand
+.data:125E87F8                 db    6
+.data:125E87F9                 db    0
+.data:125E87FA                 db    0
+.data:125E87FB                 db    0
+.data:125E87FC                 dd offset a_prog_preloadu ; "_Prog_PreLoadUnitCharacter"
+.data:125E8800                 dd offset sub_10FE0A90
+.data:125E8804                 db    1
+.data:125E8805                 db    0
+.data:125E8806                 db    0
+.data:125E8807                 db    0
+.data:125E8808                 dd offset a_prog_preloadt ; "_Prog_PreLoadTrax"
+.data:125E880C                 dd offset sub_10FDAFC0
+.data:125E8810                 db    1
+.data:125E8811                 db    0
+.data:125E8812                 db    0
+.data:125E8813                 db    0
+.data:125E8814                 dd offset a_prog_preload_ ; "_Prog_PreLoad_IsFinished"
+.data:125E8818                 dd offset sub_10FDAFD0
+.data:125E881C                 db    1
+.data:125E881D                 db    0
+.data:125E881E                 db    0
+.data:125E881F                 db    0
+.data:125E8820                 dd offset a_menu_camerase ; "_Menu_CameraSetFOV"
+.data:125E8824                 dd offset sub_10FE1330
+.data:125E8828                 db    1
+.data:125E8829                 db    0
+.data:125E882A                 db    0
+.data:125E882B                 db    0
+.data:125E882C                 dd offset a_menu_preload_ ; "_Menu_Preload_Weapon"
+.data:125E8830                 dd offset sub_10FE1350
+.data:125E8834                 db    1
+.data:125E8835                 db    0
+.data:125E8836                 db    0
+.data:125E8837                 db    0
+.data:125E8838                 dd offset a_menu_ispreloa ; "_Menu_IsPreload_Weapon_Done"
+.data:125E883C                 dd offset sub_10FE1370
+.data:125E8840                 db    1
+.data:125E8841                 db    0
+.data:125E8842                 db    0
+.data:125E8843                 db    0
+.data:125E8844                 dd offset a_menu_preloa_0 ; "_Menu_Preload_Cancel"
+.data:125E8848                 dd offset sub_10FE13A0
+.data:125E884C                 db    2
+.data:125E884D                 db    0
+.data:125E884E                 db    0
+.data:125E884F                 db    0
+.data:125E8850                 dd offset a_menu_createwe ; "_Menu_CreateWeaponSkeltalMeshActor"
+.data:125E8854                 dd offset sub_10FE13B0
+.data:125E8858                 db    2
+.data:125E8859                 db    0
+.data:125E885A                 db    0
+.data:125E885B                 db    0
+.data:125E885C                 dd offset a_menu_bindweap ; "_Menu_BindWeaponEffect"
+.data:125E8860                 dd offset sub_10FE13C0
+.data:125E8864                 db    7
+.data:125E8865                 db    0
+.data:125E8866                 db    0
+.data:125E8867                 db    0
+.data:125E8868                 dd offset a_menu_setweapo ; "_Menu_SetWeaponPosition"
+.data:125E886C                 dd offset sub_10FE13D0
+.data:125E8870                 db    2
+.data:125E8871                 db    0
+.data:125E8872                 db    0
+.data:125E8873                 db    0
+.data:125E8874                 dd offset a_menu_showweap ; "_Menu_ShowWeaponSkeltalMeshActor"
+.data:125E8878                 dd offset sub_10FE13F0
+.data:125E887C                 db    1
+.data:125E887D                 db    0
+.data:125E887E                 db    0
+.data:125E887F                 db    0
+.data:125E8880                 dd offset a_menu_destroyw ; "_Menu_DestroyWeaponSkeltalMeshActor"
+.data:125E8884                 dd offset sub_10FE1400
+.data:125E8888                 db    2
+.data:125E8889                 db    0
+.data:125E888A                 db    0
+.data:125E888B                 db    0
+.data:125E888C                 dd offset a_menu_createch ; "_Menu_CreateCharacterSkeltalMeshActor"
+.data:125E8890                 dd offset sub_10FE1410
+.data:125E8894                 db    3
+.data:125E8895                 db    0
+.data:125E8896                 db    0
+.data:125E8897                 db    0
+.data:125E8898                 dd offset a_menu_setchara ; "_Menu_SetCharacterMotion"
+.data:125E889C                 dd offset sub_10FE1420
+.data:125E88A0                 db    7
+.data:125E88A1                 db    0
+.data:125E88A2                 db    0
+.data:125E88A3                 db    0
+.data:125E88A4                 dd offset a_menu_setcha_0 ; "_Menu_SetCharacterPosition"
+.data:125E88A8                 dd offset sub_10FE1430
+.data:125E88AC                 db    2
+.data:125E88AD                 db    0
+.data:125E88AE                 db    0
+.data:125E88AF                 db    0
+.data:125E88B0                 dd offset a_menu_showchar ; "_Menu_ShowCharacterSkeltalMeshActor"
+.data:125E88B4                 dd offset sub_10FE1440
+.data:125E88B8                 db    1
+.data:125E88B9                 db    0
+.data:125E88BA                 db    0
+.data:125E88BB                 db    0
+.data:125E88BC                 dd offset a_menu_destroyc ; "_Menu_DestroyCharacterSkeltalMeshActor"
+.data:125E88C0                 dd offset sub_10FE1450
+.data:125E88C4                 align 8
+.data:125E88C8                 dd offset a_jyomenu_ope_3 ; "_JyoMenu_OpenMainMenu"
+.data:125E88CC                 dd offset sub_10FDD900
+.data:125E88D0                 db    0
+.data:125E88D1                 db    0
+.data:125E88D2                 db    0
+.data:125E88D3                 db    0
+.data:125E88D4                 dd offset a_jyomenu_openg ; "_JyoMenu_OpenGameOverMenu"
+.data:125E88D8                 dd offset sub_10FDB020
+.data:125E88DC                 align 10h
+.data:125E88E0                 dd offset a_jyomenu_ope_4 ; "_JyoMenu_OpenResultMenu"
+.data:125E88E4                 dd offset sub_10FDB040
+.data:125E88E8                 db    1
+.data:125E88E9                 db    0
+.data:125E88EA                 db    0
+.data:125E88EB                 db    0
+.data:125E88EC                 dd offset a_jyomenu_set_0 ; "_JyoMenu_SetSituationNo"
+.data:125E88F0                 dd offset sub_10FDB060
+.data:125E88F4                 align 8
+.data:125E88F8                 dd offset a_jyomenu_battl ; "_JyoMenu_BattleMenuUpdate"
+.data:125E88FC                 dd offset sub_10FDB080
+.data:125E8900                 db    0
+.data:125E8901                 db    0
+.data:125E8902                 db    0
+.data:125E8903                 db    0
+.data:125E8904                 dd offset a_jyomenu_sta_1 ; "_JyoMenu_StartCriticalTriger"
+.data:125E8908                 dd offset sub_10FDB0A0
+.data:125E890C                 align 10h
+.data:125E8910                 dd offset a_jyomenu_endcr ; "_JyoMenu_EndCriticalTriger"
+.data:125E8914                 dd offset sub_10FDB0C0
+.data:125E8918                 db    0
+.data:125E8919                 db    0
+.data:125E891A                 db    0
+.data:125E891B                 db    0
+.data:125E891C                 dd offset a_jyomenu_sta_2 ; "_JyoMenu_StartJTCriticalTriger"
+.data:125E8920                 dd offset sub_10FDB0E0
+.data:125E8924                 align 8
+.data:125E8928                 dd offset a_jyomenu_endjt ; "_JyoMenu_EndJTCriticalTriger"
+.data:125E892C                 dd offset sub_10FDB100
+.data:125E8930                 db    0
+.data:125E8931                 db    0
+.data:125E8932                 db    0
+.data:125E8933                 db    0
+.data:125E8934                 dd offset a_jyomenu_sta_3 ; "_JyoMenu_StartMagicBurst"
+.data:125E8938                 dd offset sub_10FDB120
+.data:125E893C                 db    3
+.data:125E893D                 db    0
+.data:125E893E                 db    0
+.data:125E893F                 db    0
+.data:125E8940                 dd offset a_prog_runattac ; "_Prog_RunAttackNumberTrax"
+.data:125E8944                 dd offset sub_10FDF120
+.data:125E8948                 db    5
+.data:125E8949                 db    0
+.data:125E894A                 db    0
+.data:125E894B                 db    0
+.data:125E894C                 dd offset a_prog_rundamag ; "_Prog_RunDamageNumberTrax"
+.data:125E8950                 dd offset sub_10FDF210
+.data:125E8954                 db    3
+.data:125E8955                 db    0
+.data:125E8956                 db    0
+.data:125E8957                 db    0
+.data:125E8958                 dd offset a_prog_runhealn ; "_Prog_RunHealNumberTrax"
+.data:125E895C                 dd offset sub_10FDF340
+.data:125E8960                 db    3
+.data:125E8961                 db    0
+.data:125E8962                 db    0
+.data:125E8963                 db    0
+.data:125E8964                 dd offset a_prog_runrecov ; "_Prog_RunRecoverNumberTrax"
+.data:125E8968                 dd offset sub_10FDF430
+.data:125E896C                 db    2
+.data:125E896D                 db    0
+.data:125E896E                 db    0
+.data:125E896F                 db    0
+.data:125E8970                 dd offset a_prog_runencou ; "_Prog_RunEncounterTrax"
+.data:125E8974                 dd offset sub_10FDEF10
+.data:125E8978                 db    2
+.data:125E8979                 db    0
+.data:125E897A                 db    0
+.data:125E897B                 db    0
+.data:125E897C                 dd offset a_prog_runclosu ; "_Prog_RunClosureTrax"
+.data:125E8980                 dd offset sub_10FDEFB0
+.data:125E8984                 db    1
+.data:125E8985                 db    0
+.data:125E8986                 db    0
+.data:125E8987                 db    0
+.data:125E8988                 dd offset a_prog_playbatt ; "_Prog_PlayBattleTurnTrax"
+.data:125E898C                 dd offset sub_10FDF520
+.data:125E8990                 db    1
+.data:125E8991                 db    0
+.data:125E8992                 db    0
+.data:125E8993                 db    0
+.data:125E8994                 dd offset a_prog_playrunl ; "_Prog_PlayRunLockUpTrax"
+.data:125E8998                 dd offset sub_10FDF5E0
+.data:125E899C                 db    5
+.data:125E899D                 db    0
+.data:125E899E                 db    0
+.data:125E899F                 db    0
+.data:125E89A0                 dd offset a_prog_trysetun ; "_Prog_TrySetUnionPos"
+.data:125E89A4                 dd offset sub_10FD9170
+.data:125E89A8                 db    0
+.data:125E89A9                 db    0
+.data:125E89AA                 db    0
+.data:125E89AB                 db    0
+.data:125E89AC                 dd offset a_prog_layoutca ; "_Prog_LayoutCalc2Union"
+.data:125E89B0                 dd offset sub_10FD9230
+.data:125E89B4                 align 8
+.data:125E89B8                 dd offset a_prog_sortbatt ; "_Prog_SortBattleActionTurn"
+.data:125E89BC                 dd offset sub_10FDC740
+.data:125E89C0                 db    7
+.data:125E89C1                 db    0
+.data:125E89C2                 db    0
+.data:125E89C3                 db    0
+.data:125E89C4                 dd offset a_prog_startcri ; "_Prog_StartCriticalTriggerInput"
+.data:125E89C8                 dd offset sub_10FDAA30
+.data:125E89CC                 align 10h
+.data:125E89D0                 dd offset a_jyomenu_displ ; "_JyoMenu_DispLinkNum"
+.data:125E89D4                 dd offset sub_10FDB140
+.data:125E89D8                 db    3
+.data:125E89D9                 db    0
+.data:125E89DA                 db    0
+.data:125E89DB                 db    0
+.data:125E89DC                 dd offset a_jyomenu_resul ; "_JyoMenu_ResultCriticalTriger"
+.data:125E89E0                 dd offset sub_10FDB150
+.data:125E89E4                 db    3
+.data:125E89E5                 db    0
+.data:125E89E6                 db    0
+.data:125E89E7                 db    0
+.data:125E89E8                 dd offset a_prog_runcom_0 ; "_Prog_RunCommonTraxBindCaster"
+.data:125E89EC                 dd offset sub_10FDEA90
+.data:125E89F0                 db    6
+.data:125E89F1                 db    0
+.data:125E89F2                 db    0
+.data:125E89F3                 db    0
+.data:125E89F4                 dd offset a_prog_skelet_0 ; "_Prog_SkeletalMeshActorSetEquipModel"
+.data:125E89F8                 dd offset sub_10FDE830
+.data:125E89FC                 db    5
+.data:125E89FD                 db    0
+.data:125E89FE                 db    0
+.data:125E89FF                 db    0
+.data:125E8A00                 dd offset a_prog_skelet_1 ; "_Prog_SkeletalMeshActorSetEquipTrax"
+.data:125E8A04                 dd offset sub_10FDA8C0
+.data:125E8A08                 db    3
+.data:125E8A09                 db    0
+.data:125E8A0A                 db    0
+.data:125E8A0B                 db    0
+.data:125E8A0C                 dd offset a_prog_castervo ; "_Prog_CasterVoicePlay"
+.data:125E8A10                 dd offset sub_10FE0440
+.data:125E8A14                 db    2
+.data:125E8A15                 db    0
+.data:125E8A16                 db    0
+.data:125E8A17                 db    0
+.data:125E8A18                 dd offset a_prog_getuni_0 ; "_Prog_GetUnionDistance"
+.data:125E8A1C                 dd offset sub_10FD9470
+.data:125E8A20                 db    1
+.data:125E8A21                 db    0
+.data:125E8A22                 db    0
+.data:125E8A23                 db    0
+.data:125E8A24                 dd offset a_prog_sortrema ; "_Prog_SortRemainUnit"
+.data:125E8A28                 dd offset sub_10FDC960
+.data:125E8A2C                 db    1
+.data:125E8A2D                 db    0
+.data:125E8A2E                 db    0
+.data:125E8A2F                 db    0
+.data:125E8A30                 dd offset a_prog_sortre_0 ; "_Prog_SortRemainUnion"
+.data:125E8A34                 dd offset sub_10FDCA10
+.data:125E8A38                 db    1
+.data:125E8A39                 db    0
+.data:125E8A3A                 db    0
+.data:125E8A3B                 db    0
+.data:125E8A3C                 dd offset a_prog_cutseque ; "_Prog_CutSequenceList"
+.data:125E8A40                 dd offset sub_10FDAB40
+.data:125E8A44                 align 8
+.data:125E8A48                 dd offset a_prog_sortenco ; "_Prog_SortEncountData"
+.data:125E8A4C                 dd offset sub_10FDC820
+.data:125E8A50                 db    2
+.data:125E8A51                 db    0
+.data:125E8A52                 db    0
+.data:125E8A53                 db    0
+.data:125E8A54                 dd offset a_prog_getuni_1 ; "_Prog_GetUnionDiffAngle"
+.data:125E8A58                 dd offset sub_10FD94D0
+.data:125E8A5C                 db    2
+.data:125E8A5D                 db    0
+.data:125E8A5E                 db    0
+.data:125E8A5F                 db    0
+.data:125E8A60                 dd offset a_prog_getuni_2 ; "_Prog_GetUnionAngleAtan2"
+.data:125E8A64                 dd offset sub_10FD90A0
+.data:125E8A68                 db    2
+.data:125E8A69                 db    0
+.data:125E8A6A                 db    0
+.data:125E8A6B                 db    0
+.data:125E8A6C                 dd offset a_prog_getposan ; "_Prog_GetPosAngle"
+.data:125E8A70                 dd offset sub_10FD9120
+.data:125E8A74                 db    3
+.data:125E8A75                 db    0
+.data:125E8A76                 db    0
+.data:125E8A77                 db    0
+.data:125E8A78                 dd offset a_prog_rununion ; "_Prog_RunUnionCameraTrax"
+.data:125E8A7C                 dd offset sub_10FDEDD0
+.data:125E8A80                 db    0
+.data:125E8A81                 db    0
+.data:125E8A82                 db    0
+.data:125E8A83                 db    0
+.data:125E8A84                 dd offset a_prog_setunit2 ; "_Prog_SetUnit2CenterUnionAll"
+.data:125E8A88                 dd offset sub_10FD93D0
+.data:125E8A8C                 align 10h
+.data:125E8A90                 dd offset a_prog_turnstar ; "_Prog_TurnStart"
+.data:125E8A94                 dd offset sub_10FDA8F0
+.data:125E8A98                 db    0
+.data:125E8A99                 db    0
+.data:125E8A9A                 db    0
+.data:125E8A9B                 db    0
+.data:125E8A9C                 dd offset a_prog_turnend ; "_Prog_TurnEnd"
+.data:125E8AA0                 dd offset sub_10FDA960
+.data:125E8AA4                 db    3
+.data:125E8AA5                 db    0
+.data:125E8AA6                 db    0
+.data:125E8AA7                 db    0
+.data:125E8AA8                 dd offset a_prog_drawunio ; "_Prog_DrawUnionIndicater"
+.data:125E8AAC                 dd offset sub_10FE2270
+.data:125E8AB0                 db    0
+.data:125E8AB1                 db    0
+.data:125E8AB2                 db    0
+.data:125E8AB3                 db    0
+.data:125E8AB4                 dd offset a_jyomenu_sta_4 ; "_JyoMenu_StartPreResult"
+.data:125E8AB8                 dd offset sub_10FDB180
+.data:125E8ABC                 align 10h
+.data:125E8AC0                 dd offset a_jyomenu_end_1 ; "_JyoMenu_EndPreResult"
+.data:125E8AC4                 dd offset sub_10FDB1A0
+.data:125E8AC8                 db    2
+.data:125E8AC9                 db    0
+.data:125E8ACA                 db    0
+.data:125E8ACB                 db    0
+.data:125E8ACC                 dd offset a_prog_getneare ; "_Prog_GetNearestUnit"
+.data:125E8AD0                 dd offset sub_10FD9680
+.data:125E8AD4                 db    1
+.data:125E8AD5                 db    0
+.data:125E8AD6                 db    0
+.data:125E8AD7                 db    0
+.data:125E8AD8                 dd offset a_prog_aoygetde ; "_Prog_AoyGetDeadUnionCount"
+.data:125E8ADC                 dd offset sub_10FE1030
+.data:125E8AE0                 db    1
+.data:125E8AE1                 db    0
+.data:125E8AE2                 db    0
+.data:125E8AE3                 db    0
+.data:125E8AE4                 dd offset a_prog_aoyget_0 ; "_Prog_AoyGetDeadUnionLabel"
+.data:125E8AE8                 dd offset sub_10FE1050
+.data:125E8AEC                 db    1
+.data:125E8AED                 db    0
+.data:125E8AEE                 db    0
+.data:125E8AEF                 db    0
+.data:125E8AF0                 dd offset a_prog_aoyget_1 ; "_Prog_AoyGetDeadUnitLabelPC"
+.data:125E8AF4                 dd offset sub_10FE1070
+.data:125E8AF8                 db    1
+.data:125E8AF9                 db    0
+.data:125E8AFA                 db    0
+.data:125E8AFB                 db    0
+.data:125E8AFC                 dd offset a_prog_aoyget_2 ; "_Prog_AoyGetDeadUnitLabelMons"
+.data:125E8B00                 dd offset sub_10FE1090
+.data:125E8B04                 db    1
+.data:125E8B05                 db    0
+.data:125E8B06                 db    0
+.data:125E8B07                 db    0
+.data:125E8B08                 dd offset a_prog_aoygetda ; "_Prog_AoyGetDamagedUnion"
+.data:125E8B0C                 dd offset sub_10FE10B0
+.data:125E8B10                 db    0
+.data:125E8B11                 db    0
+.data:125E8B12                 db    0
+.data:125E8B13                 db    0
+.data:125E8B14                 dd offset a_prog_aoygettu ; "_Prog_AoyGetTurnCount"
+.data:125E8B18                 dd offset sub_10FE10D0
+.data:125E8B1C                 align 10h
+.data:125E8B20                 dd offset a_prog_aoybgp_b ; "_Prog_AoyBGP_BattleStart"
+.data:125E8B24                 dd offset sub_10FE10E0
+.data:125E8B28                 db    0
+.data:125E8B29                 db    0
+.data:125E8B2A                 db    0
+.data:125E8B2B                 db    0
+.data:125E8B2C                 dd offset a_prog_aoybgp_t ; "_Prog_AoyBGP_TurnStart"
+.data:125E8B30                 dd offset sub_10FE10F0
+.data:125E8B34                 align 8
+.data:125E8B38                 dd offset a_prog_aoybgp_s ; "_Prog_AoyBGP_SequenceEnd"
+.data:125E8B3C                 dd offset sub_10FE1100
+.data:125E8B40                 db    0
+.data:125E8B41                 db    0
+.data:125E8B42                 db    0
+.data:125E8B43                 db    0
+.data:125E8B44                 dd offset a_prog_aoybgp_0 ; "_Prog_AoyBGP_TurnEnd"
+.data:125E8B48                 dd offset sub_10FE1110
+.data:125E8B4C                 db    1
+.data:125E8B4D                 db    0
+.data:125E8B4E                 db    0
+.data:125E8B4F                 db    0
+.data:125E8B50                 dd offset a_prog_allambpa ; "_Prog_AllAmbPause"
+.data:125E8B54                 dd offset sub_10FE1140
+.data:125E8B58                 db    1
+.data:125E8B59                 db    0
+.data:125E8B5A                 db    0
+.data:125E8B5B                 db    0
+.data:125E8B5C                 dd offset a_prog_allambco ; "_Prog_AllAmbContinue"
+.data:125E8B60                 dd offset sub_10FE11A0
+.data:125E8B64                 db    1
+.data:125E8B65                 db    0
+.data:125E8B66                 db    0
+.data:125E8B67                 db    0
+.data:125E8B68                 dd offset a_prog_spotambp ; "_Prog_SpotAmbPause"
+.data:125E8B6C                 dd offset sub_10FE11F0
+.data:125E8B70                 db    1
+.data:125E8B71                 db    0
+.data:125E8B72                 db    0
+.data:125E8B73                 db    0
+.data:125E8B74                 dd offset a_prog_spotambc ; "_Prog_SpotAmbContinue"
+.data:125E8B78                 dd offset sub_10FE1250
+.data:125E8B7C                 db    4
+.data:125E8B7D                 db    0
+.data:125E8B7E                 db    0
+.data:125E8B7F                 db    0
+.data:125E8B80                 dd offset a_jyomenu_syste ; "_JyoMenu_SystemMessage"
+.data:125E8B84                 dd offset sub_10FDDA10
+.data:125E8B88                 db    0
+.data:125E8B89                 db    0
+.data:125E8B8A                 db    0
+.data:125E8B8B                 db    0
+.data:125E8B8C                 dd offset a_prog_getlogic ; "_Prog_GetLogicNumberCalc"
+.data:125E8B90                 dd offset sub_10FD89E0
+.data:125E8B94                 db    1
+.data:125E8B95                 db    0
+.data:125E8B96                 db    0
+.data:125E8B97                 db    0
+.data:125E8B98                 dd offset a_prog_sortre_1 ; "_Prog_SortRemainPurpose"
+.data:125E8B9C                 dd offset sub_10FDCAC0
+.data:125E8BA0                 db    3
+.data:125E8BA1                 db    0
+.data:125E8BA2                 db    0
+.data:125E8BA3                 db    0
+.data:125E8BA4                 dd offset a_prog_getnea_0 ; "_Prog_GetNearestUnitInUnion"
+.data:125E8BA8                 dd offset sub_10FD97E0
+.data:125E8BAC                 align 10h
+.data:125E8BB0                 dd offset a_jyomenu_isend ; "_JyoMenu_IsEndSystemMessage"
+.data:125E8BB4                 dd offset sub_10FDDAD0
+.data:125E8BB8                 db    1
+.data:125E8BB9                 db    0
+.data:125E8BBA                 db    0
+.data:125E8BBB                 db    0
+.data:125E8BBC                 dd offset a_jyomenu_talkw ; "_JyoMenu_TalkWindow"
+.data:125E8BC0                 dd offset sub_10FDF700
+.data:125E8BC4                 align 8
+.data:125E8BC8                 dd offset a_jyomenu_ise_0 ; "_JyoMenu_IsEndTalkWindow"
+.data:125E8BCC                 dd offset sub_10FDB3D0
+.data:125E8BD0                 db    0
+.data:125E8BD1                 db    0
+.data:125E8BD2                 db    0
+.data:125E8BD3                 db    0
+.data:125E8BD4                 dd offset a_prog_getaimap ; "_Prog_GetAIMapSizeX"
+.data:125E8BD8                 dd offset sub_10FE1490
+.data:125E8BDC                 align 10h
+.data:125E8BE0                 dd offset a_prog_getaim_0 ; "_Prog_GetAIMapSizeY"
+.data:125E8BE4                 dd offset sub_10FE14B0
+.data:125E8BE8                 db    0
+.data:125E8BE9                 db    0
+.data:125E8BEA                 db    0
+.data:125E8BEB                 db    0
+.data:125E8BEC                 dd offset a_prog_battleev ; "_Prog_BattleEventCtrl_MatineeCameraStart"
+.data:125E8BF0                 dd offset sub_10FE12A0
+.data:125E8BF4                 align 8
+.data:125E8BF8                 dd offset a_prog_battle_0 ; "_Prog_BattleEventCtrl_MatineeCameraEnd"
+.data:125E8BFC                 dd offset sub_10FE12B0
+.data:125E8C00                 db    1
+.data:125E8C01                 db    0
+.data:125E8C02                 db    0
+.data:125E8C03                 db    0
+.data:125E8C04                 dd offset a_mitmenu_criti ; "_MitMenu_CriticalTriggerOffenceSetDisp"
+.data:125E8C08                 dd offset sub_10FDB2B0
+.data:125E8C0C                 align 10h
+.data:125E8C10                 dd offset a_mitmenu_cri_0 ; "_MitMenu_CriticalTriggerOffenceIsAuto"
+.data:125E8C14                 dd offset sub_10FDB2D0
+.data:125E8C18                 db    1
+.data:125E8C19                 db    0
+.data:125E8C1A                 db    0
+.data:125E8C1B                 db    0
+.data:125E8C1C                 dd offset a_mitmenu_cri_1 ; "_MitMenu_CriticalTriggerOffenceSetAuto"
+.data:125E8C20                 dd offset sub_10FDB2E0
+.data:125E8C24                 db    1
+.data:125E8C25                 db    0
+.data:125E8C26                 db    0
+.data:125E8C27                 db    0
+.data:125E8C28                 dd offset a_mitmenu_cri_2 ; "_MitMenu_CriticalTriggerDefenceSetDisp"
+.data:125E8C2C                 dd offset sub_10FDB300
+.data:125E8C30                 db    0
+.data:125E8C31                 db    0
+.data:125E8C32                 db    0
+.data:125E8C33                 db    0
+.data:125E8C34                 dd offset a_mitmenu_cri_3 ; "_MitMenu_CriticalTriggerDefenceIsAuto"
+.data:125E8C38                 dd offset sub_10FDB320
+.data:125E8C3C                 db    1
+.data:125E8C3D                 db    0
+.data:125E8C3E                 db    0
+.data:125E8C3F                 db    0
+.data:125E8C40                 dd offset a_mitmenu_cri_4 ; "_MitMenu_CriticalTriggerDefenceSetAuto"
+.data:125E8C44                 dd offset sub_10FDB330
+.data:125E8C48                 db    1
+.data:125E8C49                 db    0
+.data:125E8C4A                 db    0
+.data:125E8C4B                 db    0
+.data:125E8C4C                 dd offset a_mitmenu_locku ; "_MitMenu_LockupBrakeWarningSetDisp"
+.data:125E8C50                 dd offset sub_10FDB350
+.data:125E8C54                 align 8
+.data:125E8C58                 dd offset a_mitmenu_loc_0 ; "_MitMenu_LockupBrakeWarningIsEnable"
+.data:125E8C5C                 dd offset sub_10FDB370
+.data:125E8C60                 db    1
+.data:125E8C61                 db    0
+.data:125E8C62                 db    0
+.data:125E8C63                 db    0
+.data:125E8C64                 dd offset a_mitmenu_loc_1 ; "_MitMenu_LockupBrakeWarningSetEnable"
+.data:125E8C68                 dd offset sub_10FDB380
+.data:125E8C6C                 db    6
+.data:125E8C6D                 db    0
+.data:125E8C6E                 db    0
+.data:125E8C6F                 db    0
+.data:125E8C70                 dd offset a_prog_entryrec ; "_Prog_EntryRect"
+.data:125E8C74                 dd offset sub_10FD9960
+.data:125E8C78                 db    0
+.data:125E8C79                 db    0
+.data:125E8C7A                 db    0
+.data:125E8C7B                 db    0
+.data:125E8C7C                 dd offset a_prog_entrycal ; "_Prog_EntryCalc"
+.data:125E8C80                 dd offset sub_10FD9970
+.data:125E8C84                 db    1
+.data:125E8C85                 db    0
+.data:125E8C86                 db    0
+.data:125E8C87                 db    0
+.data:125E8C88                 dd offset a_prog_getentry ; "_Prog_GetEntryPosition"
+.data:125E8C8C                 dd offset sub_10FD9990
+.data:125E8C90                 db    4
+.data:125E8C91                 db    0
+.data:125E8C92                 db    0
+.data:125E8C93                 db    0
+.data:125E8C94                 dd offset a_prog_runcom_1 ; "_Prog_RunCommonTraxBindCasterTarget"
+.data:125E8C98                 dd offset sub_10FDEB60
+.data:125E8C9C                 db    1
+.data:125E8C9D                 db    0
+.data:125E8C9E                 db    0
+.data:125E8C9F                 db    0
+.data:125E8CA0                 dd offset a_prog_setendtr ; "_Prog_SetEndTrax"
+.data:125E8CA4                 dd offset sub_10FDADA0
+.data:125E8CA8                 db    0
+.data:125E8CA9                 db    0
+.data:125E8CAA                 db    0
+.data:125E8CAB                 db    0
+.data:125E8CAC                 dd offset a_prog_getbattl ; "_Prog_GetBattleLocationIndex"
+.data:125E8CB0                 dd offset sub_10FE1CD0
+.data:125E8CB4                 db    2
+.data:125E8CB5                 db    0
+.data:125E8CB6                 db    0
+.data:125E8CB7                 db    0
+.data:125E8CB8                 dd offset a_prog_calcdist ; "_Prog_CalcDistanceUnit2Unit"
+.data:125E8CBC                 dd offset sub_10FD99C0
+.data:125E8CC0                 db    0
+.data:125E8CC1                 db    0
+.data:125E8CC2                 db    0
+.data:125E8CC3                 db    0
+.data:125E8CC4                 dd offset a_prog_setuni_1 ; "_Prog_SetUnionUnitAngle"
+.data:125E8CC8                 dd offset sub_10FD99A0
+.data:125E8CCC                 db    1
+.data:125E8CCD                 db    0
+.data:125E8CCE                 db    0
+.data:125E8CCF                 db    0
+.data:125E8CD0                 dd offset a_prog_startall ; "_Prog_StartAllUnionRun"
+.data:125E8CD4                 dd offset sub_10FDE360
+.data:125E8CD8                 db    0
+.data:125E8CD9                 db    0
+.data:125E8CDA                 db    0
+.data:125E8CDB                 db    0
+.data:125E8CDC                 dd offset a_prog_isendall ; "_Prog_IsEndAllUnionRun"
+.data:125E8CE0                 dd offset sub_10FD9BB0
+.data:125E8CE4                 align 8
+.data:125E8CE8                 dd offset a_prog_calcmove ; "_Prog_CalcMoveList"
+.data:125E8CEC                 dd offset sub_10FDCC90
+.data:125E8CF0                 db    1
+.data:125E8CF1                 db    0
+.data:125E8CF2                 db    0
+.data:125E8CF3                 db    0
+.data:125E8CF4                 dd offset a_prog_debugcta ; "_Prog_DebugCTAutoEndTrigger"
+.data:125E8CF8                 dd offset sub_10FD6CE0
+.data:125E8CFC                 db    1
+.data:125E8CFD                 db    0
+.data:125E8CFE                 db    0
+.data:125E8CFF                 db    0
+.data:125E8D00                 dd offset a_prog_idletrax ; "_Prog_IdleTrax_Run"
+.data:125E8D04                 dd offset sub_10FDAC80
+.data:125E8D08                 db    1
+.data:125E8D09                 db    0
+.data:125E8D0A                 db    0
+.data:125E8D0B                 db    0
+.data:125E8D0C                 dd offset a_prog_idletr_0 ; "_Prog_IdleTrax_Delete"
+.data:125E8D10                 dd offset sub_10FDACA0
+.data:125E8D14                 db    2
+.data:125E8D15                 db    0
+.data:125E8D16                 db    0
+.data:125E8D17                 db    0
+.data:125E8D18                 dd offset a_prog_getunitd ; "_Prog_GetUnitDiffAngle"
+.data:125E8D1C                 dd offset sub_10FD9540
+.data:125E8D20                 db    3
+.data:125E8D21                 db    0
+.data:125E8D22                 db    0
+.data:125E8D23                 db    0
+.data:125E8D24                 dd offset a_prog_copyshee ; "_Prog_CopySheetIndex"
+.data:125E8D28                 dd offset sub_10FDCB70
+.data:125E8D2C                 align 10h
+.data:125E8D30                 dd offset a_prog_aoybgp_a ; "_Prog_AoyBGP_AllEnemyDead"
+.data:125E8D34                 dd offset sub_10FE1120
+.data:125E8D38                 db    2
+.data:125E8D39                 db    0
+.data:125E8D3A                 db    0
+.data:125E8D3B                 db    0
+.data:125E8D3C                 dd offset a_prog_battleun ; "_Prog_BattleUnion_ApplyBadStatus"
+.data:125E8D40                 dd offset sub_10FD8AB0
+.data:125E8D44                 db    2
+.data:125E8D45                 db    0
+.data:125E8D46                 db    0
+.data:125E8D47                 db    0
+.data:125E8D48                 dd offset a_prog_battle_1 ; "_Prog_BattleUnion_ReleaseBadStatus"
+.data:125E8D4C                 dd offset sub_10FD8B50
+.data:125E8D50                 db    2
+.data:125E8D51                 db    0
+.data:125E8D52                 db    0
+.data:125E8D53                 db    0
+.data:125E8D54                 dd offset a_prog_battle_2 ; "_Prog_BattleUnion_IsBadStatus"
+.data:125E8D58                 dd offset sub_10FD8BB0
+.data:125E8D5C                 db    2
+.data:125E8D5D                 db    0
+.data:125E8D5E                 db    0
+.data:125E8D5F                 db    0
+.data:125E8D60                 dd offset a_prog_battle_3 ; "_Prog_BattleUnit_ApplyBadStatus"
+.data:125E8D64                 dd offset sub_10FD8C40
+.data:125E8D68                 db    2
+.data:125E8D69                 db    0
+.data:125E8D6A                 db    0
+.data:125E8D6B                 db    0
+.data:125E8D6C                 dd offset a_prog_battle_4 ; "_Prog_BattleUnit_ReleaseBadStatus"
+.data:125E8D70                 dd offset sub_10FD8D10
+.data:125E8D74                 db    2
+.data:125E8D75                 db    0
+.data:125E8D76                 db    0
+.data:125E8D77                 db    0
+.data:125E8D78                 dd offset a_prog_battle_5 ; "_Prog_BattleUnit_IsBadStatus"
+.data:125E8D7C                 dd offset sub_10FD8D70
+.data:125E8D80                 db    0
+.data:125E8D81                 db    0
+.data:125E8D82                 db    0
+.data:125E8D83                 db    0
+.data:125E8D84                 dd offset a_prog_clearloa ; "_Prog_ClearLoadQueue"
+.data:125E8D88                 dd offset sub_10FDF690
+.data:125E8D8C                 db    2
+.data:125E8D8D                 db    0
+.data:125E8D8E                 db    0
+.data:125E8D8F                 db    0
+.data:125E8D90                 dd offset a_prog_addloadq ; "_Prog_AddLoadQueue"
+.data:125E8D94                 dd offset sub_10FE0750
+.data:125E8D98                 db    1
+.data:125E8D99                 db    0
+.data:125E8D9A                 db    0
+.data:125E8D9B                 db    0
+.data:125E8D9C                 dd offset a_prog_startloa ; "_Prog_StartLoadQueue"
+.data:125E8DA0                 dd offset sub_10FDAEC0
+.data:125E8DA4                 align 8
+.data:125E8DA8                 dd offset a_prog_loadqueu ; "_Prog_LoadQueueIsFinish"
+.data:125E8DAC                 dd offset sub_10FDAEE0
+.data:125E8DB0                 db    2
+.data:125E8DB1                 db    0
+.data:125E8DB2                 db    0
+.data:125E8DB3                 db    0
+.data:125E8DB4                 dd offset a_prog_releas_1 ; "_Prog_ReleaseResidentData"
+.data:125E8DB8                 dd offset sub_10FDAF00
+.data:125E8DBC                 align 10h
+.data:125E8DC0                 dd offset a_prog_forceexe ; "_Prog_ForceExecGarbageCollection"
+.data:125E8DC4                 dd offset sub_10FDAF70
+.data:125E8DC8                 db    0
+.data:125E8DC9                 db    0
+.data:125E8DCA                 db    0
+.data:125E8DCB                 db    0
+.data:125E8DCC                 dd offset a_prog_initbatt ; "_Prog_InitBattleWorkData"
+.data:125E8DD0                 dd offset sub_10FE0C40
+.data:125E8DD4                 db    2
+.data:125E8DD5                 db    0
+.data:125E8DD6                 db    0
+.data:125E8DD7                 db    0
+.data:125E8DD8                 dd offset a_jyomenu_reque ; "_JyoMenu_RequestHitSignal"
+.data:125E8DDC                 dd offset sub_10FDB1C0
+.data:125E8DE0                 db    1
+.data:125E8DE1                 db    0
+.data:125E8DE2                 db    0
+.data:125E8DE3                 db    0
+.data:125E8DE4                 dd offset a_jyomenu_req_0 ; "_JyoMenu_RequestFumbleSignal"
+.data:125E8DE8                 dd offset sub_10FDB1F0
+.data:125E8DEC                 db    1
+.data:125E8DED                 db    0
+.data:125E8DEE                 db    0
+.data:125E8DEF                 db    0
+.data:125E8DF0                 dd offset a_jyomenu_opens ; "_JyoMenu_OpenSeqMsg"
+.data:125E8DF4                 dd offset sub_10FDB210
+.data:125E8DF8                 db    0
+.data:125E8DF9                 db    0
+.data:125E8DFA                 db    0
+.data:125E8DFB                 db    0
+.data:125E8DFC                 dd offset a_jyomenu_polli ; "_JyoMenu_PollingSeqMsg"
+.data:125E8E00                 dd offset sub_10FDB230
+.data:125E8E04                 align 8
+.data:125E8E08                 dd offset a_jyomenu_force ; "_JyoMenu_ForceEndSeqMsg"
+.data:125E8E0C                 dd offset sub_10FDB250
+.data:125E8E10                 db    0
+.data:125E8E11                 db    0
+.data:125E8E12                 db    0
+.data:125E8E13                 db    0
+.data:125E8E14                 dd offset a_jyomenu_initm ; "_JyoMenu_InitMenu"
+.data:125E8E18                 dd offset sub_10FDB270
+.data:125E8E1C                 align 10h
+.data:125E8E20                 dd offset a_prog_getgam_3 ; "_Prog_GetGamePadMenuOK"
+.data:125E8E24                 dd offset sub_10FDD5B0
+.data:125E8E28                 db    1
+.data:125E8E29                 db    0
+.data:125E8E2A                 db    0
+.data:125E8E2B                 db    0
+.data:125E8E2C                 dd offset a_prog_setlodan ; "_Prog_SetLodAndShadowMode"
+.data:125E8E30                 dd offset sub_10FDAC40
+.data:125E8E34                 align 8
+.data:125E8E38                 dd offset a_jyomenu_dummy ; "_JyoMenu_DummyOpenMainMenu"
+.data:125E8E3C                 dd offset sub_10FDB290
+.data:125E8E40                 db    0
+.data:125E8E41                 db    0
+.data:125E8E42                 db    0
+.data:125E8E43                 db    0
+.data:125E8E44                 dd offset a_prog_aoybattl ; "_Prog_AoyBattleWon"
+.data:125E8E48                 dd offset sub_10FE1130
+.data:125E8E4C                 db 0FFh
+.data:125E8E4D                 db 0FFh
+.data:125E8E4E                 db 0FFh
+.data:125E8E4F                 db 0FFh
+.data:125E8E50                 dd offset a_prog_printff ; "_Prog_Printff"
+.data:125E8E54                 dd offset tlr_DebugPrintThing
+.data:125E8E58                 db    1
+.data:125E8E59                 db    0
+.data:125E8E5A                 db    0
+.data:125E8E5B                 db    0
+.data:125E8E5C                 dd offset a_prog_setlogle ; "_Prog_SetLogLevel"
+.data:125E8E60                 dd offset sub_10FD6C20
+.data:125E8E64                 align 8
+.data:125E8E68                 dd offset a_prog_getlogle ; "_Prog_GetLogLevel"
+.data:125E8E6C                 dd offset sub_10FD6C40
+.data:125E8E70                 db    1
+.data:125E8E71                 db    0
+.data:125E8E72                 db    0
+.data:125E8E73                 db    0
+.data:125E8E74                 dd offset a_prog_setlogma ; "_Prog_SetLogMask"
+.data:125E8E78                 dd offset sub_10FD6C50
+.data:125E8E7C                 align 10h
+.data:125E8E80                 dd offset a_prog_getlogma ; "_Prog_GetLogMask"
+.data:125E8E84                 dd offset sub_10FD6C70
+.data:125E8E88                 db    1
+.data:125E8E89                 db    0
+.data:125E8E8A                 db    0
+.data:125E8E8B                 db    0
+.data:125E8E8C                 dd offset a_prog_unitisra ; "_Prog_UnitIsRagdolling"
+.data:125E8E90                 dd offset sub_10FD9430
+.data:125E8E94                 db    1
+.data:125E8E95                 db    0
+.data:125E8E96                 db    0
+.data:125E8E97                 db    0
+.data:125E8E98                 dd offset a_prog_notifycr ; "_Prog_NotifyCreateUnion"
+.data:125E8E9C                 dd offset sub_10FD9AE0
+.data:125E8EA0                 db    0
+.data:125E8EA1                 db    0
+.data:125E8EA2                 db    0
+.data:125E8EA3                 db    0
+.data:125E8EA4                 dd offset a_prog_sorten_0 ; "_Prog_SortEncountReinforce"
+.data:125E8EA8                 dd offset sub_10FDC720
+.data:125E8EAC                 db    1
+.data:125E8EAD                 db    0
+.data:125E8EAE                 db    0
+.data:125E8EAF                 db    0
+.data:125E8EB0                 dd offset a_prog_resetrus ; "_Prog_ResetRushBattleWaitTimer"
+.data:125E8EB4                 dd offset sub_10FD6DB0
+.data:125E8EB8                 db    0
+.data:125E8EB9                 db    0
+.data:125E8EBA                 db    0
+.data:125E8EBB                 db    0
+.data:125E8EBC                 dd offset a_prog_getrushb ; "_Prog_GetRushBattleWaitTimer"
+.data:125E8EC0                 dd offset sub_10FD6DE0
+.data:125E8EC4                 db    1
+.data:125E8EC5                 db    0
+.data:125E8EC6                 db    0
+.data:125E8EC7                 db    0
+.data:125E8EC8                 dd offset a_prog_battle_6 ; "_Prog_BattleUnit_bStatusChange"
+.data:125E8ECC                 dd offset sub_10FDDE40
+.data:125E8ED0                 db    1
+.data:125E8ED1                 db    0
+.data:125E8ED2                 db    0
+.data:125E8ED3                 db    0
+.data:125E8ED4                 dd offset a_prog_sideatta ; "_Prog_SideAttackReturn"
+.data:125E8ED8                 dd offset sub_10FD9B60
+.data:125E8EDC                 db    2
+.data:125E8EDD                 db    0
+.data:125E8EDE                 db    0
+.data:125E8EDF                 db    0
+.data:125E8EE0                 dd offset a_prog_calcdi_0 ; "_Prog_CalcDistanceUnit2Union"
+.data:125E8EE4                 dd offset sub_10FD9A40
+.data:125E8EE8                 db    2
+.data:125E8EE9                 db    0
+.data:125E8EEA                 db    0
+.data:125E8EEB                 db    0
+.data:125E8EEC                 dd offset a_prog_getunit2 ; "_Prog_GetUnit2UnionDiffAngle"
+.data:125E8EF0                 dd offset sub_10FD95F0
+.data:125E8EF4                 db    3
+.data:125E8EF5                 db    0
+.data:125E8EF6                 db    0
+.data:125E8EF7                 db    0
+.data:125E8EF8                 dd offset a_prog_checkid_ ; "_Prog_CheckID_OpenSpace"
+.data:125E8EFC                 dd offset sub_10FE14D0
+.data:125E8F00                 db    8
+.data:125E8F01                 db    0
+.data:125E8F02                 db    0
+.data:125E8F03                 db    0
+.data:125E8F04                 dd offset a_prog_create_0 ; "_Prog_CreateUnitModelHide"
+.data:125E8F08                 dd offset sub_10FDE6A0
+.data:125E8F0C                 db    1
+.data:125E8F0D                 db    0
+.data:125E8F0E                 db    0
+.data:125E8F0F                 db    0
+.data:125E8F10                 dd offset a_prog_isvoidun ; "_Prog_IsVoidUnion"
+.data:125E8F14                 dd offset sub_10FD9AB0
+.data:125E8F18                 db    0
+.data:125E8F19                 db    0
+.data:125E8F1A                 db    0
+.data:125E8F1B                 db    0
+.data:125E8F1C                 dd offset a_prog_create_1 ; "_Prog_CreateUnitModelReinForceInit"
+.data:125E8F20                 dd offset sub_10FE0D00
+.data:125E8F24                 db  0Ch
+.data:125E8F25                 db    0
+.data:125E8F26                 db    0
+.data:125E8F27                 db    0
+.data:125E8F28                 dd offset a_prog_create_2 ; "_Prog_CreateUnitModelReinForce"
+.data:125E8F2C                 dd offset sub_10FDFEB0
+.data:125E8F30                 db    8
+.data:125E8F31                 db    0
+.data:125E8F32                 db    0
+.data:125E8F33                 db    0
+.data:125E8F34                 dd offset a_prog_create_3 ; "_Prog_CreateUnitModelReinForceEvent"
+.data:125E8F38                 dd offset sub_10FDE6E0
+.data:125E8F3C                 db    4
+.data:125E8F3D                 db    0
+.data:125E8F3E                 db    0
+.data:125E8F3F                 db    0
+.data:125E8F40                 dd offset a_prog_runpopup ; "_Prog_RunPopUpTraxBindCaster"
+.data:125E8F44                 dd offset sub_10FDF040
+.data:125E8F48                 db    0
+.data:125E8F49                 db    0
+.data:125E8F4A                 db    0
+.data:125E8F4B                 db    0
+.data:125E8F4C                 dd offset a_prog_releas_2 ; "_Prog_ReleaseResidentDataAll"
+.data:125E8F50                 dd offset sub_10FDAF40
+.data:125E8F54                 align 8
+.data:125E8F58                 dd offset a_prog_finish_1 ; "_Prog_FinishBattleGoTitleGoTitile"
+.data:125E8F5C                 dd offset sub_10FE0FD0
+.data:125E8F60                 db    3
+.data:125E8F61                 db    0
+.data:125E8F62                 db    0
+.data:125E8F63                 db    0
+.data:125E8F64                 dd offset a_prog_rundemis ; "_Prog_RunDemiseTraxBindCaster"
+.data:125E8F68                 dd offset sub_10FDEC60
+.data:125E8F6C                 db    3
+.data:125E8F6D                 db    0
+.data:125E8F6E                 db    0
+.data:125E8F6F                 db    0
+.data:125E8F70                 dd offset a_prog_caster_0 ; "_Prog_CasterVoicePlayOnCache"
+.data:125E8F74                 dd offset sub_10FE0590
+.data:125E8F78                 db    0
+.data:125E8F79                 db    0
+.data:125E8F7A                 db    0
+.data:125E8F7B                 db    0
+.data:125E8F7C                 dd offset a_prog_cutseq_0 ; "_Prog_CutSequenceTraxCamera"
+.data:125E8F80                 dd offset sub_10FDADD0
+.data:125E8F84                 db    2
+.data:125E8F85                 db    0
+.data:125E8F86                 db    0
+.data:125E8F87                 db    0
+.data:125E8F88                 dd offset a_prog_achievem ; "_Prog_Achievement_CountAdd"
+.data:125E8F8C                 dd offset sub_10FDB400
+.data:125E8F90                 db    2
+.data:125E8F91                 db    0
+.data:125E8F92                 db    0
+.data:125E8F93                 db    0
+.data:125E8F94                 dd offset a_prog_achiev_0 ; "_Prog_Achievement_CountSet"
+.data:125E8F98                 dd offset sub_10FDB430
+.data:125E8F9C                 align 10h
+.data:125E8FA0                 dd offset a_jyomenu_mainm ; "_JyoMenu_MainMenuCloseCallBack"
+.data:125E8FA4                 dd offset sub_10FDAFF0
+.data:125E8FA8                 db    0
+.data:125E8FA9                 db    0
+.data:125E8FAA                 db    0
+.data:125E8FAB                 db    0
+.data:125E8FAC                 dd offset a_prog_isenable ; "_Prog_IsEnableOpenMainMenu"
+.data:125E8FB0                 dd offset sub_10FDB010
+.data:125E8FB4                 align 8
+.data:125E8FB8                 dd offset a_prog_turnend_ ; "_Prog_TurnEnd_0"
+.data:125E8FBC                 dd offset sub_10FDA910
+.data:125E8FC0                 db    0
+.data:125E8FC1                 db    0
+.data:125E8FC2                 db    0
+.data:125E8FC3                 db    0
+.data:125E8FC4                 dd offset a_prog_debugche ; "_Prog_DebugCheckTrueHit"
+.data:125E8FC8                 dd offset sub_10FD6CD0
+.data:125E8FCC                 align 10h
+.data:125E8FD0                 dd offset a_prog_calcmo_0 ; "_Prog_CalcMoveList2"
+.data:125E8FD4                 dd offset sub_10FDA090
+.data:125E8FD8                 db    1
+.data:125E8FD9                 db    0
+.data:125E8FDA                 db    0
+.data:125E8FDB                 db    0
+.data:125E8FDC                 dd offset a_prog_printxls ; "_Prog_PrintXlsDataString"
+.data:125E8FE0                 dd offset sub_10FE0DE0
+.data:125E8FE4                 db    1
+.data:125E8FE5                 db    0
+.data:125E8FE6                 db    0
+.data:125E8FE7                 db    0
+.data:125E8FE8                 dd offset a_prog_scaleoff ; "_Prog_ScaleOffUnitEquipWeaponAll"
+.data:125E8FEC                 dd offset sub_10FDD1A0
+.data:125E8FF0                 db    1
+.data:125E8FF1                 db    0
+.data:125E8FF2                 db    0
+.data:125E8FF3                 db    0
+.data:125E8FF4                 dd offset a_prog_isliveun ; "_Prog_IsLiveUnit"
+.data:125E8FF8                 dd offset sub_10FDA630
+.data:125E8FFC                 align 10h
+.data:125E9000                 dd offset a_prog_getdemis ; "_Prog_GetDemiseReplaceId"
+.data:125E9004                 dd offset sub_10FDACD0
+.data:125E9008                 db    3
+.data:125E9009                 db    0
+.data:125E900A                 db    0
+.data:125E900B                 db    0
+.data:125E900C                 dd offset a_prog_bgmvol_4 ; "_Prog_BGMVolumeSet"
+.data:125E9010                 dd offset sub_10FDD800
+.data:125E9014                 align 8
+.data:125E9018                 dd offset a_prog_resetpre ; "_Prog_ResetPreloadStatus"
+.data:125E901C                 dd offset sub_10FDAF90
+.data:125E9020                 db    0
+.data:125E9021                 db    0
+.data:125E9022                 db    0
+.data:125E9023                 db    0
+.data:125E9024                 dd offset a_prog_startpre ; "_Prog_StartPreloadStatus"
+.data:125E9028                 dd offset sub_10FE0A30
+.data:125E902C                 db    1
+.data:125E902D                 db    0
+.data:125E902E                 db    0
+.data:125E902F                 db    0
+.data:125E9030                 dd offset a_prog_isfinish ; "_Prog_IsFinishedPreloadStatus"
+.data:125E9034                 dd offset sub_10FDAFA0
+.data:125E9038                 db    1
+.data:125E9039                 db    0
+.data:125E903A                 db    0
+.data:125E903B                 db    0
+.data:125E903C                 dd offset a_jyomenu_navim ; "_JyoMenu_NaviMapIsUpdate"
+.data:125E9040                 dd offset sub_10FDB3A0
+.data:125E9044                 db    1
+.data:125E9045                 db    0
+.data:125E9046                 db    0
+.data:125E9047                 db    0
+.data:125E9048                 dd offset a_prog_setmovec ; "_Prog_SetMoveCameraForceUnitId"
+.data:125E904C                 dd offset sub_10FDADF0
+.data:125E9050                 db    1
+.data:125E9051                 db    0
+.data:125E9052                 db    0
+.data:125E9053                 db    0
+.data:125E9054                 dd offset a_prog_setbtlpl ; "_Prog_SetBtlPlayRate"
+.data:125E9058                 dd offset sub_10FD6D00
+.data:125E905C                 align 10h
+.data:125E9060                 dd offset a_prog_getbtlpl ; "_Prog_GetBtlPlayRate"
+.data:125E9064                 dd offset sub_10FD6D30
+.data:125E9068                 db    4
+.data:125E9069                 db    0
+.data:125E906A                 db    0
+.data:125E906B                 db    0
+.data:125E906C                 dd offset a_prog_scaleo_0 ; "_Prog_ScaleOffUnitEquipWeapon"
+.data:125E9070                 dd offset sub_10FDD230
+.data:125E9074                 db    2
+.data:125E9075                 db    0
+.data:125E9076                 db    0
+.data:125E9077                 db    0
+.data:125E9078                 dd offset a_prog_printsla ; "_Prog_PrintSlabel"
+.data:125E907C                 dd offset sub_10FDF870
+.data:125E9080                 db    4
+.data:125E9081                 db    0
+.data:125E9082                 db    0
+.data:125E9083                 db    0
+.data:125E9084                 dd offset a_prog_scaleonu ; "_Prog_ScaleOnUnitEquipWeapon"
+.data:125E9088                 dd offset sub_10FDD330
+.data:125E908C                 align 10h
+.data:125E9090                 dd offset a_prog_notifyru ; "_Prog_NotifyRunTerminateTrax"
+.data:125E9094                 dd offset sub_10FDAC70
+.data:125E9098                 db    1
+.data:125E9099                 db    0
+.data:125E909A                 db    0
+.data:125E909B                 db    0
+.data:125E909C                 dd offset a_prog_setsoftr ; "_Prog_SetSoftResetEnable"
+.data:125E90A0                 dd offset sub_10FD6D50
+.data:125E90A4                 align 8
+.data:125E90A8                 dd offset a_prog_getsoftr ; "_Prog_GetSoftResetEnable"
+.data:125E90AC                 dd offset sub_10FD6D70
+.data:125E90B0                 db    2
+.data:125E90B1                 db    0
+.data:125E90B2                 db    0
+.data:125E90B3                 db    0
+.data:125E90B4                 dd offset a_prog_getexp_a ; "_Prog_GetExp_ArtsSkill"
+.data:125E90B8                 dd offset sub_10FDB460
+.data:125E90BC                 db    3
+.data:125E90BD                 db    0
+.data:125E90BE                 db    0
+.data:125E90BF                 db    0
+.data:125E90C0                 dd offset a_prog_setexp_a ; "_Prog_SetExp_ArtsSkill"
+.data:125E90C4                 dd offset sub_10FDB480
+.data:125E90C8                 db    2
+.data:125E90C9                 db    0
+.data:125E90CA                 db    0
+.data:125E90CB                 db    0
+.data:125E90CC                 dd offset a_prog_getexp2n ; "_Prog_GetExp2nd_ArtsSkill"
+.data:125E90D0                 dd offset sub_10FDB4B0
+.data:125E90D4                 db    3
+.data:125E90D5                 db    0
+.data:125E90D6                 db    0
+.data:125E90D7                 db    0
+.data:125E90D8                 dd offset a_prog_setexp2n ; "_Prog_SetExp2nd_ArtsSkill"
+.data:125E90DC                 dd offset sub_10FDB4D0
+.data:125E90E0                 db    2
+.data:125E90E1                 db    0
+.data:125E90E2                 db    0
+.data:125E90E3                 db    0
+.data:125E90E4                 dd offset a_prog_getlv_ar ; "_Prog_GetLv_ArtsSkill"
+.data:125E90E8                 dd offset sub_10FDB500
+.data:125E90EC                 db    3
+.data:125E90ED                 db    0
+.data:125E90EE                 db    0
+.data:125E90EF                 db    0
+.data:125E90F0                 dd offset a_prog_setlv_ar ; "_Prog_SetLv_ArtsSkill"
+.data:125E90F4                 dd offset sub_10FDB520
+.data:125E90F8                 db    2
+.data:125E90F9                 db    0
+.data:125E90FA                 db    0
+.data:125E90FB                 db    0
+.data:125E90FC                 dd offset a_prog_getdirex ; "_Prog_GetDirExp_ArtsSkill"
+.data:125E9100                 dd offset sub_10FDB550
+.data:125E9104                 db    3
+.data:125E9105                 db    0
+.data:125E9106                 db    0
+.data:125E9107                 db    0
+.data:125E9108                 dd offset a_prog_setdirex ; "_Prog_SetDirExp_ArtsSkill"
+.data:125E910C                 dd offset sub_10FDB570
+.data:125E9110                 db    2
+.data:125E9111                 db    0
+.data:125E9112                 db    0
+.data:125E9113                 db    0
+.data:125E9114                 dd offset a_prog_getdir_0 ; "_Prog_GetDirExp2_ArtsSkill"
+.data:125E9118                 dd offset sub_10FDB5A0
+.data:125E911C                 db    3
+.data:125E911D                 db    0
+.data:125E911E                 db    0
+.data:125E911F                 db    0
+.data:125E9120                 dd offset a_prog_setdir_0 ; "_Prog_SetDirExp2_ArtsSkill"
+.data:125E9124                 dd offset sub_10FDB5C0
+.data:125E9128                 db    2
+.data:125E9129                 db    0
+.data:125E912A                 db    0
+.data:125E912B                 db    0
+.data:125E912C                 dd offset a_prog_getdirlv ; "_Prog_GetDirLv_ArtsSkill"
+.data:125E9130                 dd offset sub_10FDB5F0
+.data:125E9134                 db    3
+.data:125E9135                 db    0
+.data:125E9136                 db    0
+.data:125E9137                 db    0
+.data:125E9138                 dd offset a_prog_setdirlv ; "_Prog_SetDirLv_ArtsSkill"
+.data:125E913C                 dd offset sub_10FDB610
+.data:125E9140                 db    2
+.data:125E9141                 db    0
+.data:125E9142                 db    0
+.data:125E9143                 db    0
+.data:125E9144                 dd offset a_prog_getexp_m ; "_Prog_GetExp_MagicSkill"
+.data:125E9148                 dd offset sub_10FDB640
+.data:125E914C                 db    3
+.data:125E914D                 db    0
+.data:125E914E                 db    0
+.data:125E914F                 db    0
+.data:125E9150                 dd offset a_prog_setexp_m ; "_Prog_SetExp_MagicSkill"
+.data:125E9154                 dd offset sub_10FDB660
+.data:125E9158                 db    2
+.data:125E9159                 db    0
+.data:125E915A                 db    0
+.data:125E915B                 db    0
+.data:125E915C                 dd offset a_prog_getexp_0 ; "_Prog_GetExp2nd_MagicSkill"
+.data:125E9160                 dd offset sub_10FDB690
+.data:125E9164                 db    3
+.data:125E9165                 db    0
+.data:125E9166                 db    0
+.data:125E9167                 db    0
+.data:125E9168                 dd offset a_prog_setexp_0 ; "_Prog_SetExp2nd_MagicSkill"
+.data:125E916C                 dd offset sub_10FDB6B0
+.data:125E9170                 db    2
+.data:125E9171                 db    0
+.data:125E9172                 db    0
+.data:125E9173                 db    0
+.data:125E9174                 dd offset a_prog_getlv_ma ; "_Prog_GetLv_MagicSkill"
+.data:125E9178                 dd offset sub_10FDB6E0
+.data:125E917C                 db    3
+.data:125E917D                 db    0
+.data:125E917E                 db    0
+.data:125E917F                 db    0
+.data:125E9180                 dd offset a_prog_setlv_ma ; "_Prog_SetLv_MagicSkill"
+.data:125E9184                 dd offset sub_10FDB700
+.data:125E9188                 db    2
+.data:125E9189                 db    0
+.data:125E918A                 db    0
+.data:125E918B                 db    0
+.data:125E918C                 dd offset a_prog_getexp_i ; "_Prog_GetExp_ItemSkill"
+.data:125E9190                 dd offset sub_10FDB730
+.data:125E9194                 db    3
+.data:125E9195                 db    0
+.data:125E9196                 db    0
+.data:125E9197                 db    0
+.data:125E9198                 dd offset a_prog_setexp_i ; "_Prog_SetExp_ItemSkill"
+.data:125E919C                 dd offset sub_10FDB750
+.data:125E91A0                 db    2
+.data:125E91A1                 db    0
+.data:125E91A2                 db    0
+.data:125E91A3                 db    0
+.data:125E91A4                 dd offset a_prog_getexp2_ ; "_Prog_GetExp2_ItemSkill"
+.data:125E91A8                 dd offset sub_10FDB780
+.data:125E91AC                 db    3
+.data:125E91AD                 db    0
+.data:125E91AE                 db    0
+.data:125E91AF                 db    0
+.data:125E91B0                 dd offset a_prog_setexp2_ ; "_Prog_SetExp2_ItemSkill"
+.data:125E91B4                 dd offset sub_10FDB7A0
+.data:125E91B8                 db    2
+.data:125E91B9                 db    0
+.data:125E91BA                 db    0
+.data:125E91BB                 db    0
+.data:125E91BC                 dd offset a_prog_getlv_it ; "_Prog_GetLv_ItemSkill"
+.data:125E91C0                 dd offset sub_10FDB7D0
+.data:125E91C4                 db    3
+.data:125E91C5                 db    0
+.data:125E91C6                 db    0
+.data:125E91C7                 db    0
+.data:125E91C8                 dd offset a_prog_setlv_it ; "_Prog_SetLv_ItemSkill"
+.data:125E91CC                 dd offset sub_10FDB7F0
+.data:125E91D0                 db    2
+.data:125E91D1                 db    0
+.data:125E91D2                 db    0
+.data:125E91D3                 db    0
+.data:125E91D4                 dd offset a_prog_getexp_e ; "_Prog_GetExp_EqStyle"
+.data:125E91D8                 dd offset sub_10FDB820
+.data:125E91DC                 db    3
+.data:125E91DD                 db    0
+.data:125E91DE                 db    0
+.data:125E91DF                 db    0
+.data:125E91E0                 dd offset a_prog_setexp_e ; "_Prog_SetExp_EqStyle"
+.data:125E91E4                 dd offset sub_10FDB840
+.data:125E91E8                 db    2
+.data:125E91E9                 db    0
+.data:125E91EA                 db    0
+.data:125E91EB                 db    0
+.data:125E91EC                 dd offset a_prog_getexp_1 ; "_Prog_GetExp2_EqStyle"
+.data:125E91F0                 dd offset sub_10FDB870
+.data:125E91F4                 db    3
+.data:125E91F5                 db    0
+.data:125E91F6                 db    0
+.data:125E91F7                 db    0
+.data:125E91F8                 dd offset a_prog_setexp_1 ; "_Prog_SetExp2_EqStyle"
+.data:125E91FC                 dd offset sub_10FDB890
+.data:125E9200                 db    2
+.data:125E9201                 db    0
+.data:125E9202                 db    0
+.data:125E9203                 db    0
+.data:125E9204                 dd offset a_prog_getlvbas ; "_Prog_GetLvBase_EqStyle"
+.data:125E9208                 dd offset sub_10FDB8C0
+.data:125E920C                 db    3
+.data:125E920D                 db    0
+.data:125E920E                 db    0
+.data:125E920F                 db    0
+.data:125E9210                 dd offset a_prog_setlvbas ; "_Prog_SetLvBase_EqStyle"
+.data:125E9214                 dd offset sub_10FDB8E0
+.data:125E9218                 db    2
+.data:125E9219                 db    0
+.data:125E921A                 db    0
+.data:125E921B                 db    0
+.data:125E921C                 dd offset a_prog_getlvbat ; "_Prog_GetLvBattle_EqStyle"
+.data:125E9220                 dd offset sub_10FDB910
+.data:125E9224                 db    3
+.data:125E9225                 db    0
+.data:125E9226                 db    0
+.data:125E9227                 db    0
+.data:125E9228                 dd offset a_prog_setlvbat ; "_Prog_SetLvBattle_EqStyle"
+.data:125E922C                 dd offset sub_10FDB930
+.data:125E9230                 db    2
+.data:125E9231                 db    0
+.data:125E9232                 db    0
+.data:125E9233                 db    0
+.data:125E9234                 dd offset a_prog_getexp_2 ; "_Prog_GetExp_EqCategory"
+.data:125E9238                 dd offset sub_10FDB960
+.data:125E923C                 db    3
+.data:125E923D                 db    0
+.data:125E923E                 db    0
+.data:125E923F                 db    0
+.data:125E9240                 dd offset a_prog_setexp_2 ; "_Prog_SetExp_EqCategory"
+.data:125E9244                 dd offset sub_10FDB980
+.data:125E9248                 db    2
+.data:125E9249                 db    0
+.data:125E924A                 db    0
+.data:125E924B                 db    0
+.data:125E924C                 dd offset a_prog_getexp_3 ; "_Prog_GetExp2_EqCategory"
+.data:125E9250                 dd offset sub_10FDB9B0
+.data:125E9254                 db    3
+.data:125E9255                 db    0
+.data:125E9256                 db    0
+.data:125E9257                 db    0
+.data:125E9258                 dd offset a_prog_setexp_3 ; "_Prog_SetExp2_EqCategory"
+.data:125E925C                 dd offset sub_10FDB9D0
+.data:125E9260                 db    2
+.data:125E9261                 db    0
+.data:125E9262                 db    0
+.data:125E9263                 db    0
+.data:125E9264                 dd offset a_prog_getlvb_0 ; "_Prog_GetLvBase_EqCategory"
+.data:125E9268                 dd offset sub_10FDBA00
+.data:125E926C                 db    3
+.data:125E926D                 db    0
+.data:125E926E                 db    0
+.data:125E926F                 db    0
+.data:125E9270                 dd offset a_prog_setlvb_0 ; "_Prog_SetLvBase_EqCategory"
+.data:125E9274                 dd offset sub_10FDBA20
+.data:125E9278                 db    2
+.data:125E9279                 db    0
+.data:125E927A                 db    0
+.data:125E927B                 db    0
+.data:125E927C                 dd offset a_prog_getlvnow ; "_Prog_GetLvNow_EqCategory"
+.data:125E9280                 dd offset sub_10FDBA50
+.data:125E9284                 db    3
+.data:125E9285                 db    0
+.data:125E9286                 db    0
+.data:125E9287                 db    0
+.data:125E9288                 dd offset a_prog_setlvnow ; "_Prog_SetLvNow_EqCategory"
+.data:125E928C                 dd offset sub_10FDBA70
+.data:125E9290                 db    2
+.data:125E9291                 db    0
+.data:125E9292                 db    0
+.data:125E9293                 db    0
+.data:125E9294                 dd offset a_prog_getlvb_1 ; "_Prog_GetLvBattle_EqCategory"
+.data:125E9298                 dd offset sub_10FDBAA0
+.data:125E929C                 db    3
+.data:125E929D                 db    0
+.data:125E929E                 db    0
+.data:125E929F                 db    0
+.data:125E92A0                 dd offset a_prog_setlvb_1 ; "_Prog_SetLvBattle_EqCategory"
+.data:125E92A4                 dd offset sub_10FDBAC0
+.data:125E92A8                 db    2
+.data:125E92A9                 db    0
+.data:125E92AA                 db    0
+.data:125E92AB                 db    0
+.data:125E92AC                 dd offset a_prog_getexp_4 ; "_Prog_GetExp_MgcCategory"
+.data:125E92B0                 dd offset sub_10FDBAF0
+.data:125E92B4                 db    3
+.data:125E92B5                 db    0
+.data:125E92B6                 db    0
+.data:125E92B7                 db    0
+.data:125E92B8                 dd offset a_prog_setexp_4 ; "_Prog_SetExp_MgcCategory"
+.data:125E92BC                 dd offset sub_10FDBB10
+.data:125E92C0                 db    2
+.data:125E92C1                 db    0
+.data:125E92C2                 db    0
+.data:125E92C3                 db    0
+.data:125E92C4                 dd offset a_prog_getexp_5 ; "_Prog_GetExp2_MgcCategory"
+.data:125E92C8                 dd offset sub_10FDBB40
+.data:125E92CC                 db    3
+.data:125E92CD                 db    0
+.data:125E92CE                 db    0
+.data:125E92CF                 db    0
+.data:125E92D0                 dd offset a_prog_setexp_5 ; "_Prog_SetExp2_MgcCategory"
+.data:125E92D4                 dd offset sub_10FDBB60
+.data:125E92D8                 db    2
+.data:125E92D9                 db    0
+.data:125E92DA                 db    0
+.data:125E92DB                 db    0
+.data:125E92DC                 dd offset a_prog_getlvb_2 ; "_Prog_GetLvBase_MgcCategory"
+.data:125E92E0                 dd offset sub_10FDBB90
+.data:125E92E4                 db    3
+.data:125E92E5                 db    0
+.data:125E92E6                 db    0
+.data:125E92E7                 db    0
+.data:125E92E8                 dd offset a_prog_setlvb_2 ; "_Prog_SetLvBase_MgcCategory"
+.data:125E92EC                 dd offset sub_10FDBBB0
+.data:125E92F0                 db    2
+.data:125E92F1                 db    0
+.data:125E92F2                 db    0
+.data:125E92F3                 db    0
+.data:125E92F4                 dd offset a_prog_getlvn_0 ; "_Prog_GetLvNow_MgcCategory"
+.data:125E92F8                 dd offset sub_10FDBBE0
+.data:125E92FC                 db    3
+.data:125E92FD                 db    0
+.data:125E92FE                 db    0
+.data:125E92FF                 db    0
+.data:125E9300                 dd offset a_prog_setlvn_0 ; "_Prog_SetLvNow_MgcCategory"
+.data:125E9304                 dd offset sub_10FDBC00
+.data:125E9308                 db    2
+.data:125E9309                 db    0
+.data:125E930A                 db    0
+.data:125E930B                 db    0
+.data:125E930C                 dd offset a_prog_getlvb_3 ; "_Prog_GetLvBattle_MgcCategory"
+.data:125E9310                 dd offset sub_10FDBC30
+.data:125E9314                 db    3
+.data:125E9315                 db    0
+.data:125E9316                 db    0
+.data:125E9317                 db    0
+.data:125E9318                 dd offset a_prog_setlvb_3 ; "_Prog_SetLvBattle_MgcCategory"
+.data:125E931C                 dd offset sub_10FDBC50
+.data:125E9320                 db    2
+.data:125E9321                 db    0
+.data:125E9322                 db    0
+.data:125E9323                 db    0
+.data:125E9324                 dd offset a_prog_getexp_6 ; "_Prog_GetExp_ItemCategory"
+.data:125E9328                 dd offset sub_10FDBC80
+.data:125E932C                 db    3
+.data:125E932D                 db    0
+.data:125E932E                 db    0
+.data:125E932F                 db    0
+.data:125E9330                 dd offset a_prog_setexp_6 ; "_Prog_SetExp_ItemCategory"
+.data:125E9334                 dd offset sub_10FDBCA0
+.data:125E9338                 db    2
+.data:125E9339                 db    0
+.data:125E933A                 db    0
+.data:125E933B                 db    0
+.data:125E933C                 dd offset a_prog_getexp_7 ; "_Prog_GetExp2_ItemCategory"
+.data:125E9340                 dd offset sub_10FDBCD0
+.data:125E9344                 db    3
+.data:125E9345                 db    0
+.data:125E9346                 db    0
+.data:125E9347                 db    0
+.data:125E9348                 dd offset a_prog_setexp_7 ; "_Prog_SetExp2_ItemCategory"
+.data:125E934C                 dd offset sub_10FDBCF0
+.data:125E9350                 db    2
+.data:125E9351                 db    0
+.data:125E9352                 db    0
+.data:125E9353                 db    0
+.data:125E9354                 dd offset a_prog_getlvb_4 ; "_Prog_GetLvBase_ItemCategory"
+.data:125E9358                 dd offset sub_10FDBD20
+.data:125E935C                 db    3
+.data:125E935D                 db    0
+.data:125E935E                 db    0
+.data:125E935F                 db    0
+.data:125E9360                 dd offset a_prog_setlvb_4 ; "_Prog_SetLvBase_ItemCategory"
+.data:125E9364                 dd offset sub_10FDBD40
+.data:125E9368                 db    2
+.data:125E9369                 db    0
+.data:125E936A                 db    0
+.data:125E936B                 db    0
+.data:125E936C                 dd offset a_prog_getlvn_1 ; "_Prog_GetLvNow_ItemCategory"
+.data:125E9370                 dd offset sub_10FDBD70
+.data:125E9374                 db    3
+.data:125E9375                 db    0
+.data:125E9376                 db    0
+.data:125E9377                 db    0
+.data:125E9378                 dd offset a_prog_setlvn_1 ; "_Prog_SetLvNow_ItemCategory"
+.data:125E937C                 dd offset sub_10FDBD90
+.data:125E9380                 db    2
+.data:125E9381                 db    0
+.data:125E9382                 db    0
+.data:125E9383                 db    0
+.data:125E9384                 dd offset a_prog_getlvb_5 ; "_Prog_GetLvBattle_ItemCategory"
+.data:125E9388                 dd offset sub_10FDBDC0
+.data:125E938C                 db    3
+.data:125E938D                 db    0
+.data:125E938E                 db    0
+.data:125E938F                 db    0
+.data:125E9390                 dd offset a_prog_setlvb_5 ; "_Prog_SetLvBattle_ItemCategory"
+.data:125E9394                 dd offset sub_10FDBDE0

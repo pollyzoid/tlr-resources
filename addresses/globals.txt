@@ -1,0 +1,5 @@
+tlr_GlobalTable_T *tlr_GlobalData = 0x126B04E0
+tlr_TableMeta_t *tlr_TableMeta = 0x12688F74
+
+tlr_GlobalThing_t *tlr_gJyoMenuManager = 0x126AE09C
+Unknown: 0x126B0738

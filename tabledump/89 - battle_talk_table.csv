@@ -1,0 +1,12 @@
+           km_, km_check_num,   km_owner, km_message,    km_face, km_camera_target, km_camera_ctrl, 
+       sSlabel,     eUCHAR,    eSSHORT,    eSSHORT,     eUCHAR,    eSSHORT,     eSCHAR, 
+ 0 : btl_ttrl_EV0020,          3,          5,          1,          1,          3,          1, 
+ 1 :          @,          0,          7,          2,          1,          5,          1, 
+ 2 :          @,          0,          6,          3,          1,          4,          1, 
+ 3 : btl_ttrl_RBC,          3,          6,          7,          1,          4,          1, 
+ 4 :          @,          0,          0,          8,          1,          0,          1, 
+ 5 :          @,          0,          6,          9,          1,          4,          1, 
+ 6 : btl_ttrl_GAS,          3,          5,          4,          1,          3,          1, 
+ 7 :          @,          0,          0,          5,          1,          0,          1, 
+ 8 :          @,          0,          5,          6,          1,          3,          1, 
+

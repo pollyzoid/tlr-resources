@@ -1,0 +1,9 @@
+           km_, km_StrNo_text, km_StrNo_text_s, km_StrNo_text_k1, km_StrNo_text_k2, km_window_type, km_font_type, 
+       sSlabel,    eString,    eString,    eString,    eString,     eUCHAR,     eUCHAR, 
+ 0 :      Dummy,      36732,      36733,      36734,      36735,          0,          0, 
+ 1 :     blades,      36736,      36737,      36738,      36739,          0,          0, 
+ 2 :   breakers,      36740,      36741,      36742,      36743,          0,          0, 
+ 3 :   polearms,      36744,      36745,      36746,      36747,          0,          0, 
+ 4 :    shields,      36748,      36749,      36750,      36751,          0,          0, 
+ 5 : accessories,      36752,      36753,      36754,      36755,          0,          0, 
+

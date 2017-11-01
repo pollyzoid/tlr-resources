@@ -1,0 +1,5 @@
+           km_,    km_type, 
+       sSlabel,     eUCHAR, 
+ 0 : SYSTEM_MESSAGE,          0, 
+ 1 : BATTLE_TALK,          1, 
+

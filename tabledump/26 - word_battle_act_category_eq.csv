@@ -1,0 +1,10 @@
+           km_, km_StrNo_text, km_StrNo_text_s, km_StrNo_text_k1, km_StrNo_text_k2, km_window_type, km_font_type, 
+       sSlabel,    eString,    eString,    eString,    eString,     eUCHAR,     eUCHAR, 
+ 0 :      Dummy,       8348,       8349,       8350,       8351,          0,          0, 
+ 1 :   eq_swrod,       8352,       8353,       8354,       8355,          0,          0, 
+ 2 :  eq_katana,       8356,       8357,       8358,       8359,          0,          0, 
+ 3 :     eq_axe,       8360,       8361,       8362,       8363,          0,          0, 
+ 4 :  eq_hammer,       8364,       8365,       8366,       8367,          0,          0, 
+ 5 :   eq_spear,       8368,       8369,       8370,       8371,          0,          0, 
+ 6 :    eq_mace,       8372,       8373,       8374,       8375,          0,          0, 
+

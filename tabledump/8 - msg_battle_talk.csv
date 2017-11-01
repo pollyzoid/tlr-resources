@@ -1,0 +1,13 @@
+           km_, km_StrNo_text, km_window_type, km_font_type, 
+       sSlabel,    eString,     eUCHAR,     eUCHAR, 
+ 0 :      Dummy,       1341,          0,          0, 
+ 1 : btl_ttrl_EV0020_01,       1342,          0,          0, 
+ 2 : btl_ttrl_EV0020_02,       1343,          0,          0, 
+ 3 : btl_ttrl_EV0020_03,       1344,          0,          0, 
+ 4 : btl_ttrl_GAS_01,       1345,          0,          0, 
+ 5 : btl_ttrl_GAS_02,       1346,          0,          0, 
+ 6 : btl_ttrl_GAS_03,       1347,          0,          0, 
+ 7 : btl_ttrl_RBC_01,       1348,          0,          0, 
+ 8 : btl_ttrl_RBC_02,       1349,          0,          0, 
+ 9 : btl_ttrl_RBC_03,       1350,          0,          0, 
+

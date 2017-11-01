@@ -1,0 +1,6 @@
+           km_, km_StrNo_eff_pkgname_out, km_StrNo_eff_pkgname_in, 
+       sSlabel,    eString,    eString, 
+ 0 : Encount_in_normal,      61331,      61332, 
+ 1 : Encount_in_enemy,      61333,      61334, 
+ 2 : Encount_in_event,      61335,      61336, 
+

@@ -1,0 +1,4 @@
+           km_,  km_is_end,  km_is_win, km_is_gameover, km_team_center_pc_x, km_team_center_pc_y, km_team_center_mons_x, km_team_center_mons_y, 
+       sSlabel,     eUCHAR,     eUCHAR,     eUCHAR,     eSLONG,     eSLONG,     eSLONG,     eSLONG, 
+ 0 :       Data,          0,          0,          0,          0,          0,          0,          0, 
+

@@ -1,0 +1,10 @@
+           km_, km_is_ally, 
+       sSlabel,     eUCHAR, 
+ 0 :      Party,          1, 
+ 1 :      guest,          1, 
+ 2 :    summons,          1, 
+ 3 : normalenemy,          0, 
+ 4 :  bossenemy,          0, 
+ 5 :  rareenemy,          0, 
+ 6 :   tertiary,          0, 
+

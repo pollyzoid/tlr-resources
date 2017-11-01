@@ -1,0 +1,12 @@
+           km_, km_StrNo_text, km_StrNo_text_s, km_StrNo_text_k1, km_StrNo_text_k2, km_window_type, km_font_type, 
+       sSlabel,    eString,    eString,    eString,    eString,     eUCHAR,     eUCHAR, 
+ 0 :      Dummy,      36676,      36677,      36678,      36679,          0,          0, 
+ 1 : eqsukill_oh_oh,      36680,      36681,      36682,      36683,          0,          0, 
+ 2 : eqsukill_oh_th,      36684,      36685,      36686,      36687,          0,          0, 
+ 3 : eqsukill_oh_ww,      36688,      36689,      36690,      36691,          0,          0, 
+ 4 : eqsukill_th_th,      36692,      36693,      36694,      36695,          0,          0, 
+ 5 : eqsukill_s_fw,      36696,      36697,      36698,      36699,          0,          0, 
+ 6 : eqsukill_s_oh,      36700,      36701,      36702,      36703,          0,          0, 
+ 7 : eqsukill_s_th,      36704,      36705,      36706,      36707,          0,          0, 
+ 8 :    monster,      36708,      36709,      36710,      36711,          0,          0, 
+
